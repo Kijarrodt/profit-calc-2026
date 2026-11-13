@@ -172,7 +172,7 @@
         </div>
         <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
           <!-- Ganti href dengan link checkout LemonSqueezy milikmu -->
-          <a href="https://lemonsqueezy.com" target="_blank" rel="noopener" class="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg text-center whitespace-nowrap">
+          <a href="https://profitcalctools.lemonsqueezy.com/checkout/buy/033335d1-6ca5-4913-affc-ad1c0b3ba3dd" target="_blank" rel="noopener" class="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg text-center whitespace-nowrap">
             Unlock Pro ($4.99)
           </a>
           <input type="text" id="licenseKeyInput" placeholder="Enter License Key" class="px-3 py-2 bg-slate-950 border border-slate-700 rounded-lg text-xs text-white" />
@@ -395,14 +395,29 @@
       }
     }
 
-    function activateLicense() {
+      async function activateLicense() {
       const key = document.getElementById("licenseKeyInput").value.trim();
-      if (key.length >= 6) {
-        localStorage.setItem("calc_pro_unlocked", "true");
-        isProUnlocked = true;
-        renderBulkRows(cachedCsvRows);
+      if (!key) return;
+      try {
+        const res = await fetch("https://api.lemonsqueezy.com/v1/licenses/activate", {
+          method: "POST",
+          headers: { "Accept": "application/json", "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ license_key: key, instance_name: "ProfitCalcWeb" })
+        });
+        const data = await res.json();
+        if (data.activated || data.valid) {
+          localStorage.setItem("calc_pro_unlocked", "true");
+          isProUnlocked = true;
+          renderBulkRows(cachedCsvRows);
+          alert("Pro Unlocked!");
+        } else {
+          alert("Invalid license key.");
+        }
+      } catch (e) {
+        alert("Connection error. Try again.");
       }
     }
+
 
     init();
   </script>
