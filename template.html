@@ -12,11 +12,18 @@
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
 
-  <!-- TOP AD SLOT (Tempel kode iklan AdSense/Monetag di sini) -->
-  <div id="ad-slot-top" class="max-w-4xl mx-auto pt-4 px-4">
-    <div class="w-full h-16 bg-slate-900/70 border border-slate-800 rounded-lg flex items-center justify-center text-xs text-slate-500">
-      Advertisement Space (728x90 / Responsive)
-    </div>
+  <!-- TOP AD SLOT: Banner 728x90 -->
+  <div id="ad-slot-top" class="max-w-4xl mx-auto pt-4 px-4 flex justify-center overflow-x-auto">
+    <script>
+      atOptions = {
+        'key' : 'f59458e4ece61e6453857c2ec9d6b4be',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script src="https://bauval.org/22/f59458e4ece61e6453857c2ec9d6b4be"></script>
   </div>
 
   <main class="max-w-4xl mx-auto px-4 py-8">
@@ -174,11 +181,10 @@
       </div>
     </div>
 
-    <!-- MID AD SLOT -->
+    <!-- MID AD SLOT: Native Banner -->
     <div id="ad-slot-bottom" class="my-8">
-      <div class="w-full h-24 bg-slate-900/70 border border-slate-800 rounded-lg flex items-center justify-center text-xs text-slate-500">
-        Advertisement Space (Responsive Banner)
-      </div>
+      <script async="async" data-cfasync="false" src="https://bauval.org/21/15710e7e9ca527c9116947e583c71e05"></script>
+      <div id="container-15710e7e9ca527c9116947e583c71e05"></div>
     </div>
 
     <!-- SEO FAQ Section -->
@@ -186,6 +192,20 @@
       <h2 class="text-lg font-bold text-white mb-4">Frequently Asked Questions</h2>
       <div id="faqContainer" class="space-y-4 text-sm"></div>
     </section>
+
+    <!-- BOTTOM AD SLOT: Banner 300x250 -->
+    <div id="ad-slot-footer" class="mt-8 flex justify-center">
+      <script>
+        atOptions = {
+          'key' : 'e218f68dec666d5e080e30e12d4b1a18',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+      </script>
+      <script src="https://bauval.org/22/e218f68dec666d5e080e30e12d4b1a18"></script>
+    </div>
 
     <!-- Internal Links Grid for SEO Crawling -->
     <footer class="mt-12 pt-8 border-t border-slate-800">
@@ -387,5 +407,4 @@
     init();
   </script>
 </body>
-  </html>
-  
+</html>
