@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESC}}" />
+  <link rel="canonical" href="{{CANONICAL}}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{{FAQ_SCHEMA}}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+
+  <!-- TOP AD SLOT (Tempel kode iklan AdSense/Monetag di sini) -->
+  <div id="ad-slot-top" class="max-w-4xl mx-auto pt-4 px-4">
+    <div class="w-full h-16 bg-slate-900/70 border border-slate-800 rounded-lg flex items-center justify-center text-xs text-slate-500">
+      Advertisement Space (728x90 / Responsive)
+    </div>
+  </div>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <!-- Header -->
+    <header class="mb-8">
+      <div class="inline-block px-3 py-1 mb-3 text-xs font-semibold tracking-wider text-emerald-400 uppercase bg-emerald-950/60 border border-emerald-800/60 rounded-full">
+        2026 Fee Rates Updated
+      </div>
+      <h1 class="text-2xl md:text-4xl font-bold text-white tracking-tight mb-2">{{H1}}</h1>
+      <p class="text-slate-400 text-sm md:text-base">{{DESC}}</p>
+    </header>
+
+    <!-- Mode Switcher -->
+    <div class="flex gap-2 mb-6 bg-slate-900 p-1 rounded-xl border border-slate-800 w-fit">
+      <button id="tab-forward" onclick="switchMode('forward')" class="px-4 py-2 rounded-lg text-sm font-medium bg-emerald-600 text-white transition">
+        Profit Calculator
+      </button>
+      <button id="tab-reverse" onclick="switchMode('reverse')" class="px-4 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-white transition">
+        Target Price (Reverse)
+      </button>
+      <button id="tab-bulk" onclick="switchMode('bulk')" class="px-4 py-2 rounded-lg text-sm font-medium text-amber-400 hover:text-amber-300 transition">
+        Bulk CSV Compare ★
+      </button>
+    </div>
+
+    <!-- SINGLE / REVERSE CALCULATOR -->
+    <div id="single-calc-panel" class="grid grid-cols-1 md:grid-cols-12 gap-6">
+      <!-- Inputs -->
+      <div class="md:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div>
+          <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Marketplace / Platform</label>
+          <select id="platformSelect" onchange="onPlatformChange()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2.5 text-white focus:outline-none focus:border-emerald-500"></select>
+          <p id="feeNoteText" class="text-xs text-slate-400 mt-1.5"></p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div id="salePriceGroup">
+            <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Sale Price ($)</label>
+            <input type="number" id="salePrice" value="100" min="0" step="0.01" oninput="calculate()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+          <div id="targetProfitGroup" class="hidden">
+            <label class="block text-xs font-medium text-amber-400 uppercase mb-1">Desired Net Profit ($)</label>
+            <input type="number" id="targetProfit" value="50" min="0" step="0.01" oninput="calculate()" class="w-full bg-slate-950 border border-amber-600/60 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Item Cost / COGS ($)</label>
+            <input type="number" id="itemCost" value="35" min="0" step="0.01" oninput="calculate()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3">
+          <div>
+            <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Shipping Charged ($)</label>
+            <input type="number" id="shipCharged" value="0" min="0" step="0.01" oninput="calculate()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Your Ship Cost ($)</label>
+            <input type="number" id="shipCost" value="8" min="0" step="0.01" oninput="calculate()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-400 uppercase mb-1">Ad / Promo (%)</label>
+            <input type="number" id="adRate" value="0" min="0" max="99" step="0.1" oninput="calculate()" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Card -->
+      <div class="md:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+        <div>
+          <span id="resultHeaderLabel" class="text-xs font-semibold uppercase tracking-wider text-slate-400">Estimated Net Profit</span>
+          <div id="primaryResult" class="text-4xl font-extrabold font-mono text-emerald-400 mt-1 mb-6">$0.00</div>
+
+          <div class="space-y-3 text-sm border-t border-slate-800 pt-4">
+            <div class="flex justify-between">
+              <span class="text-slate-400">Total Revenue</span>
+              <span id="resRevenue" class="font-mono font-medium">$0.00</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Platform & Processing Fees</span>
+              <span id="resPlatformFee" class="font-mono text-rose-400">-$0.00</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Ad / Promoted Fee</span>
+              <span id="resAdFee" class="font-mono text-rose-400">-$0.00</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Item + Shipping Cost</span>
+              <span id="resCosts" class="font-mono text-slate-300">-$0.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 mt-6 pt-4 border-t border-slate-800">
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800/80">
+            <div class="text-xs text-slate-400">Net Margin</div>
+            <div id="resMargin" class="text-lg font-bold font-mono text-white">0.0%</div>
+          </div>
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800/80">
+            <div class="text-xs text-slate-400">ROI</div>
+            <div id="resRoi" class="text-lg font-bold font-mono text-white">0.0%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BULK CSV PRO PANEL (MONETIZATION) -->
+    <div id="bulk-panel" class="hidden bg-slate-900 border border-slate-800 rounded-2xl p-6">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div>
+          <h2 class="text-xl font-bold text-white">Bulk CSV Cross-Platform Profit Simulator</h2>
+          <p class="text-sm text-slate-400">Upload a CSV (`Name,Price,Cost`) to find which marketplace yields the highest profit per SKU.</p>
+        </div>
+        <div class="flex gap-2">
+          <button onclick="loadSampleCsv()" class="px-3 py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200">
+            Load Sample CSV
+          </button>
+          <label class="px-3 py-2 text-xs font-medium bg-emerald-600 hover:bg-emerald-500 rounded-lg text-white cursor-pointer">
+            Upload .CSV
+            <input type="file" accept=".csv" onchange="handleCsvUpload(event)" class="hidden" />
+          </label>
+        </div>
+      </div>
+
+      <div id="bulkTableWrapper" class="overflow-x-auto">
+        <table class="w-full text-left text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase">
+              <th class="py-2 pr-4">Item / SKU</th>
+              <th class="py-2 px-3">Price</th>
+              <th class="py-2 px-3">Cost</th>
+              <th class="py-2 px-3">Best Platform</th>
+              <th class="py-2 pl-3 text-right">Max Net Profit</th>
+            </tr>
+          </thead>
+          <tbody id="bulkTableBody" class="divide-y divide-slate-800/60 font-mono text-xs">
+            <tr><td colspan="5" class="py-6 text-center text-slate-500 font-sans">Click "Load Sample CSV" or upload your product sheet.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Paywall Gate for >3 Rows -->
+      <div id="proPaywallBox" class="hidden mt-6 p-5 bg-gradient-to-r from-amber-950/60 to-slate-950 border border-amber-600/40 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4">
+        <div>
+          <div class="text-amber-400 font-bold text-sm">Free Preview Limit Reached (3 of <span id="totalRowsCount">0</span> SKUs shown)</div>
+          <p class="text-xs text-slate-300 mt-1">Unlock unlimited bulk CSV rows + exportable profit reports for a one-time payment of $4.99.</p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+          <!-- Ganti href dengan link checkout LemonSqueezy milikmu -->
+          <a href="https://lemonsqueezy.com" target="_blank" rel="noopener" class="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg text-center whitespace-nowrap">
+            Unlock Pro ($4.99)
+          </a>
+          <input type="text" id="licenseKeyInput" placeholder="Enter License Key" class="px-3 py-2 bg-slate-950 border border-slate-700 rounded-lg text-xs text-white" />
+          <button onclick="activateLicense()" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-xs rounded-lg">Activate</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MID AD SLOT -->
+    <div id="ad-slot-bottom" class="my-8">
+      <div class="w-full h-24 bg-slate-900/70 border border-slate-800 rounded-lg flex items-center justify-center text-xs text-slate-500">
+        Advertisement Space (Responsive Banner)
+      </div>
+    </div>
+
+    <!-- SEO FAQ Section -->
+    <section class="mt-10 bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6">
+      <h2 class="text-lg font-bold text-white mb-4">Frequently Asked Questions</h2>
+      <div id="faqContainer" class="space-y-4 text-sm"></div>
+    </section>
+
+    <!-- Internal Links Grid for SEO Crawling -->
+    <footer class="mt-12 pt-8 border-t border-slate-800">
+      <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-4">All 2026 Marketplace & Freelance Calculators</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs">
+        {{INTERNAL_LINKS}}
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const PLATFORMS = {{PLATFORMS_JSON}};
+    const INITIAL_ID = "{{PLATFORM_ID}}";
+    let currentMode = "forward";
+    let isProUnlocked = localStorage.getItem("calc_pro_unlocked") === "true";
+    let cachedCsvRows = [];
+
+    function init() {
+      const sel = document.getElementById("platformSelect");
+      PLATFORMS.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p.id;
+        opt.textContent = p.platformName;
+        if (p.id === INITIAL_ID) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      onPlatformChange();
+    }
+
+    function getSelectedPlatform() {
+      const id = document.getElementById("platformSelect").value;
+      return PLATFORMS.find(p => p.id === id) || PLATFORMS[0];
+    }
+
+    function onPlatformChange() {
+      const p = getSelectedPlatform();
+      document.getElementById("feeNoteText").textContent = p.feeNote;
+      const faqHtml = p.faqs.map(f => `
+        <div class="border-b border-slate-800/60 pb-3 last:border-none">
+          <h3 class="font-semibold text-slate-200">${f.q}</h3>
+          <p class="text-slate-400 mt-1">${f.a}</p>
+        </div>
+      `).join("");
+      document.getElementById("faqContainer").innerHTML = faqHtml;
+      calculate();
+    }
+
+    function switchMode(mode) {
+      currentMode = mode;
+      ["forward", "reverse", "bulk"].forEach(m => {
+        const btn = document.getElementById(`tab-${m}`);
+        btn.className = m === mode
+          ? "px-4 py-2 rounded-lg text-sm font-medium bg-emerald-600 text-white transition"
+          : "px-4 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-white transition";
+      });
+
+      if (mode === "bulk") {
+        document.getElementById("single-calc-panel").classList.add("hidden");
+        document.getElementById("bulk-panel").classList.remove("hidden");
+      } else {
+        document.getElementById("single-calc-panel").classList.remove("hidden");
+        document.getElementById("bulk-panel").classList.add("hidden");
+        document.getElementById("salePriceGroup").classList.toggle("hidden", mode === "reverse");
+        document.getElementById("targetProfitGroup").classList.toggle("hidden", mode === "forward");
+        document.getElementById("resultHeaderLabel").textContent =
+          mode === "forward" ? "Estimated Net Profit" : "Required Listing Price";
+        calculate();
+      }
+    }
+
+    function computeFee(platform, totalRev, itemPrice) {
+      if (platform.altThreshold > 0 && itemPrice < platform.altThreshold) {
+        const pct = platform.altFeePercent !== undefined ? platform.altFeePercent : platform.feePercent;
+        const fix = platform.altFixedFee !== undefined ? platform.altFixedFee : platform.fixedFee;
+        return (totalRev * (pct / 100)) + fix;
+      }
+      return (totalRev * (platform.feePercent / 100)) + platform.fixedFee;
+    }
+
+    function calculate() {
+      const p = getSelectedPlatform();
+      const cost = parseFloat(document.getElementById("itemCost").value) || 0;
+      const shipCharged = parseFloat(document.getElementById("shipCharged").value) || 0;
+      const shipCost = parseFloat(document.getElementById("shipCost").value) || 0;
+      const adRate = parseFloat(document.getElementById("adRate").value) || 0;
+
+      let salePrice = parseFloat(document.getElementById("salePrice").value) || 0;
+
+      if (currentMode === "reverse") {
+        const desiredNet = parseFloat(document.getElementById("targetProfit").value) || 0;
+        const effRate = (p.feePercent + adRate) / 100;
+        salePrice = (desiredNet + cost + shipCost + p.fixedFee - shipCharged * (1 - effRate)) / Math.max(0.05, (1 - effRate));
+        salePrice = Math.max(0, salePrice);
+      }
+
+      const totalRev = salePrice + shipCharged;
+      const platFee = computeFee(p, totalRev, salePrice);
+      const adFee = totalRev * (adRate / 100);
+      const totalExpenses = cost + shipCost;
+      const netProfit = totalRev - platFee - adFee - totalExpenses;
+      const margin = totalRev > 0 ? (netProfit / totalRev) * 100 : 0;
+      const roi = totalExpenses > 0 ? (netProfit / totalExpenses) * 100 : 0;
+
+      const primaryEl = document.getElementById("primaryResult");
+      if (currentMode === "forward") {
+        primaryEl.textContent = `$${netProfit.toFixed(2)}`;
+        primaryEl.className = `text-4xl font-extrabold font-mono mt-1 mb-6 ${netProfit >= 0 ? "text-emerald-400" : "text-rose-400"}`;
+      } else {
+        primaryEl.textContent = `$${salePrice.toFixed(2)}`;
+        primaryEl.className = "text-4xl font-extrabold font-mono mt-1 mb-6 text-amber-400";
+      }
+
+      document.getElementById("resRevenue").textContent = `$${totalRev.toFixed(2)}`;
+      document.getElementById("resPlatformFee").textContent = `-$${platFee.toFixed(2)}`;
+      document.getElementById("resAdFee").textContent = `-$${adFee.toFixed(2)}`;
+      document.getElementById("resCosts").textContent = `-$${totalExpenses.toFixed(2)}`;
+      document.getElementById("resMargin").textContent = `${margin.toFixed(1)}%`;
+      document.getElementById("resRoi").textContent = `${roi.toFixed(1)}%`;
+    }
+
+    function loadSampleCsv() {
+      const sample = [
+        { name: "Jordan 1 Retro High", price: 220, cost: 130 },
+        { name: "Minimalist Notion Template", price: 29, cost: 0 },
+        { name: "Vintage Denim Jacket", price: 65, cost: 18 },
+        { name: "Wireless Earbuds Case", price: 24, cost: 6 },
+        { name: "Logo Design Package", price: 150, cost: 10 },
+        { name: "Stainless Tumbler 30oz", price: 35, cost: 9 }
+      ];
+      renderBulkRows(sample);
+    }
+
+    function handleCsvUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        const lines = evt.target.result.split(/\r?\n/).filter(l => l.trim());
+        const parsed = [];
+        for (let i = 1; i < lines.length; i++) {
+          const cols = lines[i].split(",");
+          if (cols.length >= 3) {
+            parsed.push({
+              name: cols[0].trim(),
+              price: parseFloat(cols[1]) || 0,
+              cost: parseFloat(cols[2]) || 0
+            });
+          }
+        }
+        renderBulkRows(parsed);
+      };
+      reader.readAsText(file);
+    }
+
+    function renderBulkRows(rows) {
+      cachedCsvRows = rows;
+      const tbody = document.getElementById("bulkTableBody");
+      const limit = isProUnlocked ? rows.length : Math.min(3, rows.length);
+      let html = "";
+
+      for (let i = 0; i < limit; i++) {
+        const r = rows[i];
+        let bestPlat = PLATFORMS[0];
+        let maxNet = -Infinity;
+        PLATFORMS.forEach(p => {
+          const net = r.price - computeFee(p, r.price, r.price) - r.cost;
+          if (net > maxNet) { maxNet = net; bestPlat = p; }
+        });
+        html += `
+          <tr>
+            <td class="py-2.5 pr-4 text-slate-200 font-sans">${r.name}</td>
+            <td class="py-2.5 px-3 text-slate-300">$${r.price.toFixed(2)}</td>
+            <td class="py-2.5 px-3 text-slate-400">$${r.cost.toFixed(2)}</td>
+            <td class="py-2.5 px-3 text-emerald-400 font-sans">${bestPlat.platformName}</td>
+            <td class="py-2.5 pl-3 text-right font-bold ${maxNet >= 0 ? "text-emerald-400" : "text-rose-400"}">$${maxNet.toFixed(2)}</td>
+          </tr>
+        `;
+      }
+      tbody.innerHTML = html;
+
+      const paywall = document.getElementById("proPaywallBox");
+      if (!isProUnlocked && rows.length > 3) {
+        document.getElementById("totalRowsCount").textContent = rows.length;
+        paywall.classList.remove("hidden");
+      } else {
+        paywall.classList.add("hidden");
+      }
+    }
+
+    function activateLicense() {
+      const key = document.getElementById("licenseKeyInput").value.trim();
+      if (key.length >= 6) {
+        localStorage.setItem("calc_pro_unlocked", "true");
+        isProUnlocked = true;
+        renderBulkRows(cachedCsvRows);
+      }
+    }
+
+    init();
+  </script>
+</body>
+  </html>
+  
