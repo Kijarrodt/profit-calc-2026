@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ebay-sneakers",
+    "slug": "ebay-sneaker-fee-calculator-2026",
+    "platformName": "eBay Sneakers (2026)",
+    "title": "eBay Sneaker Fee Calculator 2026 - Exact Seller Payout & Profit",
+    "h1": "eBay Sneaker Fee & Net Profit Calculator (2026)",
+    "description": "Calculate exact eBay sneaker selling fees (8% over $150, 13.25% under $150 + $0.30), shipping costs, and net payout in seconds.",
+    "feePercent": 8.0,
+    "fixedFee": 0.30,
+    "altThreshold": 150,
+    "altFeePercent": 13.25,
+    "feeNote": "8% final value fee for sneakers $150+ (13.25% under $150) + $0.30 per order.",
+    "faqs": [
+      { "q": "What is the eBay sneaker fee in 2026?", "a": "eBay charges 8% for athletic shoes sold at $150 or more, and 13.25% for pairs under $150, plus a $0.30 per-order fee." },
+      { "q": "Does eBay charge fees on shipping?", "a": "Yes, final value fees are calculated on the total amount of the sale including shipping and sales tax." }
+    ]
+  },
+  {
+    "id": "etsy-digital",
+    "slug": "etsy-digital-download-profit-calculator",
+    "platformName": "Etsy Digital Download",
+    "title": "Etsy Digital Download Profit Calculator 2026 - Fees & Margin",
+    "h1": "Etsy Digital Download Fee & Profit Calculator",
+    "description": "Free Etsy digital product calculator including 6.5% transaction fee, 3% + $0.25 payment processing, and $0.20 listing fee.",
+    "feePercent": 9.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 9.5,
+    "feeNote": "Includes 6.5% Etsy transaction fee, 3% payment processing, $0.25 deposit fee, and $0.20 listing fee.",
+    "faqs": [
+      { "q": "How much does Etsy take from digital downloads?", "a": "Etsy deducts a $0.20 listing fee, 6.5% transaction fee, and 3% + $0.25 payment processing fee on US orders." },
+      { "q": "Are digital products exempt from shipping fees on Etsy?", "a": "Yes, digital downloads have zero shipping costs, maximizing net profit margins." }
+    ]
+  },
+  {
+    "id": "poshmark",
+    "slug": "poshmark-fee-and-earnings-calculator",
+    "platformName": "Poshmark Seller",
+    "title": "Poshmark Fee and Earnings Calculator 2026 - Net Payout",
+    "h1": "Poshmark Fee & Seller Earnings Calculator",
+    "description": "Calculate your exact Poshmark seller payout after the $2.95 flat fee (under $15) or 20% commission ($15 and above).",
+    "feePercent": 20.0,
+    "fixedFee": 0.00,
+    "altThreshold": 15,
+    "altFeePercent": 0,
+    "altFixedFee": 2.95,
+    "feeNote": "Flat $2.95 fee for sales under $15; 20% commission for sales of $15 or more.",
+    "faqs": [
+      { "q": "How much commission does Poshmark take?", "a": "Poshmark takes a flat $2.95 on sales under $15, and 20% on sales of $15 or more." },
+      { "q": "Who pays for shipping on Poshmark?", "a": "The buyer pays standard shipping unless the seller offers a shipping discount." }
+    ]
+  },
+  {
+    "id": "stockx",
+    "slug": "stockx-seller-payout-calculator",
+    "platformName": "StockX Seller (Level 1)",
+    "title": "StockX Seller Payout & Fee Calculator 2026",
+    "h1": "StockX Seller Fee & Net Payout Calculator",
+    "description": "Estimate your StockX payout after the 9% transaction fee, 3% payment processing fee, and seller shipping deductions.",
+    "feePercent": 12.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 12.0,
+    "feeNote": "Level 1 Seller rate: 9% transaction fee + 3% payment processing fee (12% total).",
+    "faqs": [
+      { "q": "What are StockX seller fees in 2026?", "a": "Starting Level 1 sellers pay a 9% transaction fee plus a 3% payment processing fee." },
+      { "q": "Can StockX fees be reduced?", "a": "Yes, higher seller levels reduce transaction fees down to 7% based on quarterly sales volume." }
+    ]
+  },
+  {
+    "id": "mercari",
+    "slug": "mercari-selling-fee-calculator",
+    "platformName": "Mercari Seller",
+    "title": "Mercari Selling Fee Calculator 2026 - Exact Payout & Profit",
+    "h1": "Mercari Selling Fee & Net Profit Calculator",
+    "description": "Calculate Mercari 10% selling fees, shipping deductions, and exact net profit per item sold.",
+    "feePercent": 10.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 10.0,
+    "feeNote": "Standard 10% Mercari selling fee applied to completed item price and buyer-paid shipping.",
+    "faqs": [
+      { "q": "How much is the Mercari selling fee?", "a": "Mercari charges a flat 10% selling fee on the total completed sale price." },
+      { "q": "Does Mercari charge a listing fee?", "a": "No, listing items on Mercari is completely free." }
+    ]
+  },
+  {
+    "id": "upwork",
+    "slug": "upwork-freelancer-fee-and-net-income-calculator",
+    "platformName": "Upwork Freelancer",
+    "title": "Upwork Freelancer Fee & Net Income Calculator 2026",
+    "h1": "Upwork Freelancer Fee & Take-Home Pay Calculator",
+    "description": "Calculate your net freelance earnings on Upwork after the 10% service fee and reverse-calculate your hourly or fixed rate.",
+    "feePercent": 10.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 10.0,
+    "feeNote": "Flat 10% Upwork freelancer service fee across all contract types.",
+    "faqs": [
+      { "q": "What is Upwork's freelancer service fee?", "a": "Upwork charges a flat 10% service fee on all earnings billed to a client." },
+      { "q": "How do I calculate what to charge to get a specific net amount?", "a": "Divide your desired take-home pay by 0.90 to cover the 10% Upwork service fee." }
+    ]
+  },
+  {
+    "id": "fiverr",
+    "slug": "fiverr-seller-net-earnings-calculator",
+    "platformName": "Fiverr Seller",
+    "title": "Fiverr Seller Net Earnings Calculator 2026 - 20% Fee Breakdown",
+    "h1": "Fiverr Seller Fee & Net Earnings Calculator",
+    "description": "Instantly calculate Fiverr's 20% commission on gigs and tips, plus see the exact gig price needed to hit your target income.",
+    "feePercent": 20.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 20.0,
+    "feeNote": "Fiverr retains 20% of every completed order and buyer tip.",
+    "faqs": [
+      { "q": "How much does Fiverr take from sellers?", "a": "Fiverr takes a flat 20% commission from every order, including gig extras and tips." },
+      { "q": "How much should I price my Fiverr gig to earn $100?", "a": "You must price your gig at $125 so that after Fiverr's 20% fee ($25), you keep $100." }
+    ]
+  },
+  {
+    "id": "shopify-stripe",
+    "slug": "shopify-stripe-fee-calculator-per-order",
+    "platformName": "Shopify + Stripe",
+    "title": "Shopify & Stripe Fee Calculator Per Order (2026)",
+    "h1": "Shopify Payments & Stripe Fee Calculator",
+    "description": "Calculate Shopify Basic and Stripe processing fees (2.9% + $0.30 per transaction) and net store profit margin.",
+    "feePercent": 2.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 2.9,
+    "feeNote": "Standard online credit card rate: 2.9% + $0.30 per domestic transaction.",
+    "faqs": [
+      { "q": "What is the Stripe and Shopify Basic transaction fee?", "a": "Both Shopify Basic (using Shopify Payments) and Stripe charge 2.9% + $0.30 per online card transaction." },
+      { "q": "Are transaction fees refunded when issuing a customer refund?", "a": "No, Stripe and Shopify Payments do not return the original processing fees on refunded orders." }
+    ]
+  },
+  {
+    "id": "depop",
+    "slug": "depop-fee-calculator-uk-and-us",
+    "platformName": "Depop US / UK",
+    "title": "Depop Fee Calculator US & UK 2026 - Seller Payout",
+    "h1": "Depop Seller Fee & Payout Calculator (US & UK)",
+    "description": "Calculate Depop payment processing fees (3.3% + $0.45), optional Boosted Listing fees, and net profit per item.",
+    "feePercent": 3.3,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 3.3,
+    "feeNote": "Zero selling fee for US/UK sellers; standard 3.3% + $0.45 payment processing fee applies.",
+    "faqs": [
+      { "q": "Does Depop still charge a 10% selling fee?", "a": "Depop removed the 10% selling fee for US and UK sellers, leaving only the 3.3% + $0.45 payment processing fee." },
+      { "q": "How much do Depop Boosted Listings cost?", "a": "Boosted listings incur an additional 8% fee only when the item sells via a boosted tile." }
+    ]
+  },
+  {
+    "id": "amazon-fba",
+    "slug": "amazon-fba-small-and-light-fee-calculator",
+    "platformName": "Amazon FBA Low-Price",
+    "title": "Amazon FBA Low-Price & Referral Fee Calculator 2026",
+    "h1": "Amazon FBA Referral & Fulfillment Fee Calculator",
+    "description": "Estimate Amazon 15% referral fees, FBA fulfillment costs (~$3.22 standard), COGS, and net ROI per unit.",
+    "feePercent": 15.0,
+    "fixedFee": 3.22,
+    "altThreshold": 0,
+    "altFeePercent": 15.0,
+    "feeNote": "Based on standard 15% referral fee + ~$3.22 average small standard FBA fulfillment fee.",
+    "faqs": [
+      { "q": "What is the average Amazon FBA fee percentage?", "a": "Most categories carry a 15% referral fee plus a per-unit FBA fulfillment fee starting around $3.22 for small standard items." },
+      { "q": "What is a good profit margin for Amazon FBA?", "a": "Most FBA sellers target a minimum 25% to 30% net profit margin after product cost, shipping, and PPC ads." }
+    ]
+  }
+]
