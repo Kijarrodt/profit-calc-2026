@@ -169,5 +169,840 @@
       { "q": "What is the average Amazon FBA fee percentage?", "a": "Most categories carry a 15% referral fee plus a per-unit FBA fulfillment fee starting around $3.22 for small standard items." },
       { "q": "What is a good profit margin for Amazon FBA?", "a": "Most FBA sellers target a minimum 25% to 30% net profit margin after product cost, shipping, and PPC ads." }
     ]
+  },
+  {
+    "id": "ebay-electronics",
+    "slug": "ebay-electronics-fee-calculator-2026",
+    "platformName": "eBay Electronics",
+    "title": "eBay Electronics Fee Calculator 2026 - Exact Payout",
+    "h1": "eBay Electronics & Tech Fee Calculator (2026)",
+    "description": "Calculate eBay final value fees for phones, laptops, and electronics (13.25% + $0.30 per order) and net profit.",
+    "feePercent": 13.25,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 13.25,
+    "feeNote": "Standard 13.25% final value fee for consumer electronics + $0.30 per order.",
+    "faqs": [
+      { "q": "What is the eBay selling fee for electronics?", "a": "eBay charges 13.25% on the total sale amount plus $0.30 per order for most consumer electronics." },
+      { "q": "Is there a lower fee tier for high-value electronics on eBay?", "a": "Yes, the portion of a sale above $7,500 is charged at a reduced 2.35% rate." }
+    ]
+  },
+  {
+    "id": "ebay-trading-cards",
+    "slug": "ebay-trading-cards-fee-calculator-2026",
+    "platformName": "eBay Trading Cards",
+    "title": "eBay Trading Cards Fee Calculator 2026 - Pokemon & Sports",
+    "h1": "eBay Trading Cards & TCG Fee Calculator (2026)",
+    "description": "Calculate exact eBay seller fees for Pokemon, Magic, and sports cards (13.25% + $0.30) and net profit per card.",
+    "feePercent": 13.25,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 13.25,
+    "feeNote": "13.25% final value fee on Trading Cards + $0.30 per order ($0.40 if over $10).",
+    "faqs": [
+      { "q": "How much does eBay take for trading cards?", "a": "eBay charges 13.25% on trading cards plus a $0.30 to $0.40 per-order fixed fee." },
+      { "q": "Does eBay Standard Envelope reduce shipping costs?", "a": "Yes, cards under $20 can ship via eBay Standard Envelope starting around $0.69 with tracking." }
+    ]
+  },
+  {
+    "id": "ebay-watches",
+    "slug": "ebay-watches-fee-calculator-2026",
+    "platformName": "eBay Watches",
+    "title": "eBay Watch Fee Calculator 2026 - Luxury & Vintage",
+    "h1": "eBay Watch Seller Fee & Payout Calculator (2026)",
+    "description": "Calculate eBay watch selling fees (15% up to $1,000, 6.5% over $1,000 + $0.30) and net profit.",
+    "feePercent": 6.5,
+    "fixedFee": 0.30,
+    "altThreshold": 1000,
+    "altFeePercent": 15.0,
+    "feeNote": "15% for watches under $1,000; 6.5% for watches $1,000+ (plus $0.30 per order).",
+    "faqs": [
+      { "q": "What is eBay's fee for watches over $1,000?", "a": "Watches sold for $1,000 or more qualify for reduced tiered final value fees starting around 6.5%." },
+      { "q": "Is eBay Authenticity Guarantee free for watches?", "a": "Yes, watches sold for $2,000+ receive free third-party authentication through eBay." }
+    ]
+  },
+  {
+    "id": "ebay-handbags",
+    "slug": "ebay-handbags-fee-calculator-2026",
+    "platformName": "eBay Luxury Handbags",
+    "title": "eBay Handbag Fee Calculator 2026 - Designer & Luxury",
+    "h1": "eBay Designer Handbag Fee Calculator (2026)",
+    "description": "Calculate eBay selling fees for luxury handbags (15% under $2,000, 9% over $2,000 + $0.30) and net seller payout.",
+    "feePercent": 9.0,
+    "fixedFee": 0.30,
+    "altThreshold": 2000,
+    "altFeePercent": 15.0,
+    "feeNote": "15% under $2,000; 9% on handbags $2,000+ plus $0.30 per order.",
+    "faqs": [
+      { "q": "What is the eBay fee for luxury handbags?", "a": "eBay charges 15% on handbags under $2,000 and 9% on luxury bags sold at $2,000 or more." },
+      { "q": "Does eBay authenticate designer bags?", "a": "Yes, eligible luxury handbags over $500 undergo eBay Authenticity Guarantee inspection." }
+    ]
+  },
+  {
+    "id": "ebay-books",
+    "slug": "ebay-books-dvds-fee-calculator-2026",
+    "platformName": "eBay Books & Media",
+    "title": "eBay Books, DVDs & Music Fee Calculator 2026",
+    "h1": "eBay Books, Movies & Music Fee Calculator",
+    "description": "Calculate eBay 14.95% + $0.30 final value fees for books, textbooks, DVDs, and video games.",
+    "feePercent": 14.95,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 14.95,
+    "feeNote": "14.95% final value fee for Books, Movies & Music + $0.30 per order.",
+    "faqs": [
+      { "q": "Why are eBay fees higher for books?", "a": "Books, DVDs, and music carry a 14.95% final value fee, slightly above the 13.25% standard rate." },
+      { "q": "Can I use USPS Media Mail for eBay books?", "a": "Yes, USPS Media Mail is the cheapest tracked shipping option for books and educational media." }
+    ]
+  },
+  {
+    "id": "ebay-clothing",
+    "slug": "ebay-clothing-shoes-fee-calculator-2026",
+    "platformName": "eBay Clothing & Apparel",
+    "title": "eBay Clothing & Apparel Fee Calculator 2026",
+    "h1": "eBay Clothing & Fashion Seller Fee Calculator",
+    "description": "Calculate eBay 13.25% + $0.30 selling fees, shipping deductions, and profit margin for apparel resellers.",
+    "feePercent": 13.25,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 13.25,
+    "feeNote": "13.25% final value fee on Clothing, Shoes & Accessories + $0.30 per order.",
+    "faqs": [
+      { "q": "What is the eBay fee for selling clothes?", "a": "Most clothing and apparel items are charged 13.25% of the total sale price plus $0.30 per order." },
+      { "q": "Do eBay Store subscribers get lower clothing fees?", "a": "Yes, Basic Store subscribers and above receive discounted final value fees on clothing categories." }
+    ]
+  },
+  {
+    "id": "ebay-auto-parts",
+    "slug": "ebay-auto-parts-fee-calculator-2026",
+    "platformName": "eBay Motors Parts",
+    "title": "eBay Auto Parts & Accessories Fee Calculator 2026",
+    "h1": "eBay Motors Parts & Accessories Fee Calculator",
+    "description": "Calculate eBay Motors selling fees (13.25% + $0.30), heavy shipping costs, and net profit per auto part.",
+    "feePercent": 13.25,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 13.25,
+    "feeNote": "13.25% final value fee on eBay Motors Parts & Accessories + $0.30 per order.",
+    "faqs": [
+      { "q": "How much does eBay charge for auto parts?", "a": "eBay Motors charges 13.25% on parts and accessories up to $7,500, plus $0.30 per order." },
+      { "q": "Does eBay charge fees on collected sales tax?", "a": "Yes, the 13.25% percentage applies to the item price, shipping, and buyer sales tax combined." }
+    ]
+  },
+  {
+    "id": "ebay-uk-business",
+    "slug": "ebay-uk-seller-fee-calculator-2026",
+    "platformName": "eBay UK Business",
+    "title": "eBay UK Seller Fee Calculator 2026 - Net Payout",
+    "h1": "eBay UK Business Seller Fee Calculator (2026)",
+    "description": "Calculate eBay UK business selling fees (12.8% + £0.30 per order) and exact net profit per listing.",
+    "feePercent": 12.8,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 12.8,
+    "feeNote": "Standard eBay UK business rate: 12.8% final value fee + 0.30 fixed order fee.",
+    "faqs": [
+      { "q": "Are private sellers free on eBay UK?", "a": "Yes, UK private sellers pay zero final value fees on most categories, while business sellers pay ~12.8% + 30p." },
+      { "q": "Does eBay UK charge fees on postage?", "a": "Yes, business seller fees apply to the combined item price and postage paid by the buyer." }
+    ]
+  },
+  {
+    "id": "ebay-international",
+    "slug": "ebay-international-fee-calculator-2026",
+    "platformName": "eBay International",
+    "title": "eBay International Fee Calculator 2026 - Cross-Border",
+    "h1": "eBay International Selling Fee Calculator",
+    "description": "Calculate eBay standard fees plus the 1.65% international cross-border fee (14.9% + $0.30 total).",
+    "feePercent": 14.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 14.9,
+    "feeNote": "13.25% standard fee + 1.65% international fee (14.9% total) + $0.30 per order.",
+    "faqs": [
+      { "q": "What is eBay's international fee?", "a": "US sellers pay an extra 1.65% international fee when the buyer's registered address is outside the US." },
+      { "q": "How does eBay International Shipping work?", "a": "You ship domestically to eBay's US hub, and eBay handles customs and international delivery." }
+    ]
+  },
+  {
+    "id": "ebay-jewelry",
+    "slug": "ebay-jewelry-fee-calculator-2026",
+    "platformName": "eBay Fine Jewelry",
+    "title": "eBay Fine Jewelry Fee Calculator 2026 - Gold & Silver",
+    "h1": "eBay Fine Jewelry Seller Fee Calculator",
+    "description": "Calculate eBay 15% + $0.30 selling fees for gold, silver, diamonds, and fine jewelry.",
+    "feePercent": 15.0,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 15.0,
+    "feeNote": "15% final value fee on Fine Jewelry up to $5,000 + $0.30 per order.",
+    "faqs": [
+      { "q": "What is the eBay fee for fine jewelry?", "a": "Fine jewelry carries a 15% final value fee on the first $5,000, and 9% on the amount over $5,000." },
+      { "q": "Does eBay authenticate fine jewelry?", "a": "Yes, fine jewelry sold for $500 or more is eligible for eBay Authenticity Guarantee." }
+    ]
+  },
+  {
+    "id": "etsy-pod",
+    "slug": "etsy-print-on-demand-profit-calculator",
+    "platformName": "Etsy Print on Demand",
+    "title": "Etsy Print on Demand (POD) Profit Calculator 2026",
+    "h1": "Etsy Print on Demand Fee & Margin Calculator",
+    "description": "Calculate exact Etsy POD profit after Printify/Printful production costs, 6.5% transaction fee, and 3% + $0.45 fees.",
+    "feePercent": 9.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 9.5,
+    "feeNote": "6.5% Etsy transaction fee + 3% payment processing + $0.25 deposit + $0.20 listing fee.",
+    "faqs": [
+      { "q": "What is a healthy profit margin for Etsy Print on Demand?", "a": "Most successful Etsy POD sellers aim for a 25% to 35% net profit margin after base item and shipping costs." },
+      { "q": "Does Etsy charge 6.5% on shipping for POD items?", "a": "Yes, Etsy's 6.5% transaction fee and 3% processing fee apply to both item price and shipping charged." }
+    ]
+  },
+  {
+    "id": "etsy-handmade",
+    "slug": "etsy-handmade-jewelry-fee-calculator",
+    "platformName": "Etsy Handmade Goods",
+    "title": "Etsy Handmade Seller Fee & Pricing Calculator 2026",
+    "h1": "Etsy Handmade Products Fee & Profit Calculator",
+    "description": "Price your handmade crafts and jewelry accurately by factoring in Etsy's 9.5% + $0.45 fees and material costs.",
+    "feePercent": 9.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 9.5,
+    "feeNote": "6.5% transaction fee + 3% processing + $0.25 payment fee + $0.20 listing fee.",
+    "faqs": [
+      { "q": "How much does it cost to list a handmade item on Etsy?", "a": "Each listing costs $0.20 USD and remains active for 4 months or until the item sells." },
+      { "q": "How do I price handmade items for profit on Etsy?", "a": "Use the Target Price (Reverse) tab to enter your desired net profit plus material costs." }
+    ]
+  },
+  {
+    "id": "etsy-vintage",
+    "slug": "etsy-vintage-seller-fee-calculator",
+    "platformName": "Etsy Vintage Seller",
+    "title": "Etsy Vintage Seller Fee & Profit Calculator 2026",
+    "h1": "Etsy Vintage Reseller Fee & Payout Calculator",
+    "description": "Calculate net profit for vintage clothing and antiques on Etsy after 6.5% transaction and 3% + $0.45 fees.",
+    "feePercent": 9.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 9.5,
+    "feeNote": "6.5% transaction fee + 3% processing + $0.45 combined listing and deposit fees.",
+    "faqs": [
+      { "q": "What qualifies as vintage on Etsy?", "a": "Items must be at least 20 years old to be listed in Etsy's Vintage category." },
+      { "q": "Are Etsy fees lower than Poshmark for vintage clothes?", "a": "Yes, Etsy charges ~9.5% + $0.45 compared to Poshmark's 20% commission." }
+    ]
+  },
+  {
+    "id": "etsy-uk",
+    "slug": "etsy-uk-seller-fee-calculator-2026",
+    "platformName": "Etsy UK Seller",
+    "title": "Etsy UK Seller Fee Calculator 2026 - Net Payout",
+    "h1": "Etsy UK Seller Fee & Profit Calculator (2026)",
+    "description": "Calculate Etsy UK fees including 6.5% transaction fee, 4% + £0.20 payment processing, and £0.15 listing fee.",
+    "feePercent": 10.5,
+    "fixedFee": 0.35,
+    "altThreshold": 0,
+    "altFeePercent": 10.5,
+    "feeNote": "6.5% transaction fee + 4% UK payment processing + 0.20 deposit + 0.15 listing fee.",
+    "faqs": [
+      { "q": "What is the Etsy UK payment processing fee?", "a": "Etsy Payments in the UK charges 4% + £0.20 per order in addition to the 6.5% transaction fee." },
+      { "q": "Does Etsy UK charge VAT on seller fees?", "a": "Yes, non-VAT registered UK sellers pay 20% VAT on Etsy's seller service fees." }
+    ]
+  },
+  {
+    "id": "etsy-offsite-ads",
+    "slug": "etsy-offsite-ads-fee-calculator",
+    "platformName": "Etsy + 15% Offsite Ads",
+    "title": "Etsy Offsite Ads Fee Calculator 2026 (15% Ad Fee)",
+    "h1": "Etsy Offsite Ads 15% Fee & Profit Calculator",
+    "description": "See your real net profit when an order comes through Etsy Offsite Ads (15% ad fee + 9.5% standard fees + $0.45).",
+    "feePercent": 24.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 24.5,
+    "feeNote": "Includes 15% Offsite Ads fee + 6.5% transaction + 3% processing + $0.45 fixed fees.",
+    "faqs": [
+      { "q": "How much is the Etsy Offsite Ads fee?", "a": "Etsy charges 15% on orders attributed to Offsite Ads (12% if your shop made over $10,000 in 12 months)." },
+      { "q": "Can I opt out of Etsy Offsite Ads?", "a": "Shops making under $10,000/year can opt out; shops above $10,000 are required to participate at 12%." }
+    ]
+  },
+  {
+    "id": "goat",
+    "slug": "goat-seller-fee-calculator-2026",
+    "platformName": "GOAT Sneaker Seller",
+    "title": "GOAT Seller Fee Calculator 2026 - Exact Sneaker Payout",
+    "h1": "GOAT Sneaker Seller Fee & Payout Calculator",
+    "description": "Calculate GOAT 9.5% commission + $5.00 seller fee (plus 2.9% cashout fee) for US sneaker sellers.",
+    "feePercent": 12.4,
+    "fixedFee": 5.00,
+    "altThreshold": 0,
+    "altFeePercent": 12.4,
+    "feeNote": "9.5% commission + $5.00 US seller fee + 2.9% cashout fee (12.4% + $5.00 total).",
+    "faqs": [
+      { "q": "What is GOAT's seller commission rate?", "a": "Sellers in good standing pay a 9.5% commission plus a $5.00 flat fee per US sale." },
+      { "q": "Does GOAT charge a cashout fee?", "a": "Yes, withdrawing earnings via ACH or PayPal incurs a 2.9% cashout fee." }
+    ]
+  },
+  {
+    "id": "grailed",
+    "slug": "grailed-seller-fee-calculator-2026",
+    "platformName": "Grailed Seller",
+    "title": "Grailed Seller Fee Calculator 2026 - Commission & Stripe",
+    "h1": "Grailed Seller Fee & Net Payout Calculator",
+    "description": "Calculate Grailed's 9% commission plus 3.49% + $0.49 payment processing fee on menswear and streetwear.",
+    "feePercent": 12.49,
+    "fixedFee": 0.49,
+    "altThreshold": 0,
+    "altFeePercent": 12.49,
+    "feeNote": "9% Grailed commission + 3.49% + $0.49 domestic payment processing fee.",
+    "faqs": [
+      { "q": "How much does Grailed take from a sale?", "a": "Grailed charges a 9% commission plus a 3.49% + $0.49 payment processing fee for domestic orders." },
+      { "q": "What is Grailed's international processing fee?", "a": "International transactions carry a 4.99% + $0.49 processing fee on top of the 9% commission." }
+    ]
+  },
+  {
+    "id": "vinted",
+    "slug": "vinted-seller-fee-calculator-us-uk",
+    "platformName": "Vinted Seller (0% Fee)",
+    "title": "Vinted Seller Fee & Profit Calculator 2026 (0% Fees)",
+    "h1": "Vinted Seller Profit Calculator (Zero Selling Fees)",
+    "description": "Calculate your net profit on Vinted where sellers pay 0% commission and buyers cover shipping and protection fees.",
+    "feePercent": 0.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 0.0,
+    "feeNote": "0% seller fee—you keep 100% of the item sale price minus your sourcing cost.",
+    "faqs": [
+      { "q": "Does Vinted charge sellers any fees?", "a": "No, Vinted charges 0% selling fees; the buyer pays the Buyer Protection fee and shipping." },
+      { "q": "How do Vinted sellers make money?", "a": "Since there are no platform deductions, your profit equals the sale price minus your item cost." }
+    ]
+  },
+  {
+    "id": "whatnot",
+    "slug": "whatnot-seller-fee-calculator-2026",
+    "platformName": "Whatnot Live Seller",
+    "title": "Whatnot Seller Fee Calculator 2026 - Live Auction Payout",
+    "h1": "Whatnot Live Auction Fee & Profit Calculator",
+    "description": "Calculate Whatnot's 8% commission plus 2.9% + $0.30 payment processing fee per live auction sale.",
+    "feePercent": 10.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 10.9,
+    "feeNote": "8% Whatnot commission + 2.9% + $0.30 payment processing fee on total order.",
+    "faqs": [
+      { "q": "What are Whatnot's seller fees?", "a": "Whatnot charges an 8% commission on the item price plus a 2.9% + $0.30 processing fee on the total order." },
+      { "q": "Are Whatnot fees lower for electronics?", "a": "Yes, Whatnot offers a reduced 5% commission rate for select electronics categories." }
+    ]
+  },
+  {
+    "id": "facebook-marketplace",
+    "slug": "facebook-marketplace-shipping-fee-calculator",
+    "platformName": "Facebook Marketplace",
+    "title": "Facebook Marketplace Shipping Fee Calculator 2026",
+    "h1": "Facebook Marketplace Shipped Order Fee Calculator",
+    "description": "Calculate Facebook Marketplace's 10% selling fee for shipped orders and exact net seller payout.",
+    "feePercent": 10.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 10.0,
+    "feeNote": "10% flat selling fee on shipped orders ($0.80 minimum fee); local pickup is free.",
+    "faqs": [
+      { "q": "How much does Facebook Marketplace charge for shipping?", "a": "Facebook Marketplace charges a 10% selling fee (minimum $0.80) on orders shipped with checkout." },
+      { "q": "Is local pickup free on Facebook Marketplace?", "a": "Yes, local cash or in-person pickup transactions have zero Facebook fees." }
+    ]
+  },
+  {
+    "id": "offerup",
+    "slug": "offerup-shipping-fee-calculator",
+    "platformName": "OfferUp Shipped",
+    "title": "OfferUp Shipping & Selling Fee Calculator 2026",
+    "h1": "OfferUp Shipped Order Fee & Payout Calculator",
+    "description": "Calculate OfferUp's 12.9% service fee (minimum $1.99) on nationwide shipped sales and net profit.",
+    "feePercent": 12.9,
+    "fixedFee": 0.00,
+    "altThreshold": 15.43,
+    "altFeePercent": 0,
+    "altFixedFee": 1.99,
+    "feeNote": "12.9% service fee on shipped items (or $1.99 minimum fee for sales under $15.43).",
+    "faqs": [
+      { "q": "What is the OfferUp selling fee for shipped items?", "a": "OfferUp charges 12.9% of the sale price, with a minimum fee of $1.99 per shipped transaction." },
+      { "q": "Does OfferUp charge for local sales?", "a": "No, local in-person sales on OfferUp are free." }
+    ]
+  },
+  {
+    "id": "vestiaire",
+    "slug": "vestiaire-collective-fee-calculator",
+    "platformName": "Vestiaire Collective",
+    "title": "Vestiaire Collective Seller Fee Calculator 2026",
+    "h1": "Vestiaire Collective Luxury Fee & Payout Calculator",
+    "description": "Calculate Vestiaire Collective's 12% selling fee plus 3% payment processing fee on designer fashion.",
+    "feePercent": 15.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 15.0,
+    "feeNote": "12% selling fee + 3% payment processing fee (15% combined; capped on high-value items).",
+    "faqs": [
+      { "q": "How much commission does Vestiaire Collective take?", "a": "Vestiaire Collective charges a 12% selling fee plus a 3% payment processing fee." },
+      { "q": "Is there a minimum fee on Vestiaire Collective?", "a": "Yes, lower-priced items under $100 incur a flat minimum selling fee of around $12." }
+    ]
+  },
+  {
+    "id": "reverb",
+    "slug": "reverb-seller-fee-calculator-2026",
+    "platformName": "Reverb Music Gear",
+    "title": "Reverb Seller Fee Calculator 2026 - Guitars & Audio Gear",
+    "h1": "Reverb Seller Fee & Payout Calculator (2026)",
+    "description": "Calculate Reverb's 5% selling fee plus 3.19% + $0.49 payment processing fee on musical instruments.",
+    "feePercent": 8.19,
+    "fixedFee": 0.49,
+    "altThreshold": 0,
+    "altFeePercent": 8.19,
+    "feeNote": "5% Reverb selling fee + 3.19% + $0.49 Reverb Payments processing fee.",
+    "faqs": [
+      { "q": "What are Reverb's total seller fees?", "a": "Reverb charges a 5% selling fee plus a 3.19% + $0.49 payment processing fee (8.19% + $0.49 total)." },
+      { "q": "Is there a maximum fee cap on Reverb?", "a": "Yes, the 5% Reverb selling fee is capped at $500 per individual item sold." }
+    ]
+  },
+  {
+    "id": "tcgplayer",
+    "slug": "tcgplayer-seller-fee-calculator-2026",
+    "platformName": "TCGplayer Seller",
+    "title": "TCGplayer Seller Fee Calculator 2026 - Card Profit",
+    "h1": "TCGplayer Seller Fee & Net Margin Calculator",
+    "description": "Calculate TCGplayer's 10.25% commission plus 2.5% + $0.30 payment processing fee on Magic and Pokemon cards.",
+    "feePercent": 12.75,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 12.75,
+    "feeNote": "10.25% marketplace fee + 2.5% + $0.30 payment processing (12.75% + $0.30 total).",
+    "faqs": [
+      { "q": "How much does TCGplayer take per order?", "a": "TCGplayer deducts 10.25% marketplace commission plus 2.5% + $0.30 for payment processing." },
+      { "q": "Is the $0.30 fee charged per card or per order on TCGplayer?", "a": "The $0.30 fixed fee applies once per customer order, even if they buy multiple cards." }
+    ]
+  },
+  {
+    "id": "discogs",
+    "slug": "discogs-seller-fee-calculator-2026",
+    "platformName": "Discogs Vinyl Seller",
+    "title": "Discogs Seller Fee Calculator 2026 - Vinyl & CDs",
+    "h1": "Discogs Vinyl & Music Seller Fee Calculator",
+    "description": "Calculate Discogs' 9% marketplace fee plus 3.49% + $0.49 PayPal/Stripe processing fees on vinyl records.",
+    "feePercent": 12.49,
+    "fixedFee": 0.49,
+    "altThreshold": 0,
+    "altFeePercent": 12.49,
+    "feeNote": "9% Discogs fee on item and shipping + ~3.49% + $0.49 payment processing.",
+    "faqs": [
+      { "q": "What is the Discogs seller fee in 2026?", "a": "Discogs charges a 9% fee on the total order (including shipping), plus standard payment processing fees." },
+      { "q": "What is the minimum Discogs fee?", "a": "The minimum Discogs marketplace fee is $0.10 per order." }
+    ]
+  },
+  {
+    "id": "tiktok-shop",
+    "slug": "tiktok-shop-seller-fee-calculator-2026",
+    "platformName": "TikTok Shop US",
+    "title": "TikTok Shop Seller Fee Calculator 2026 - Commission & Profit",
+    "h1": "TikTok Shop Seller Fee & Net Profit Calculator",
+    "description": "Calculate TikTok Shop's 6% referral fee, affiliate commissions, shipping costs, and net profit per order.",
+    "feePercent": 6.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 6.0,
+    "feeNote": "Standard 6% TikTok Shop US referral fee (includes payment processing).",
+    "faqs": [
+      { "q": "How much does TikTok Shop charge sellers in 2026?", "a": "TikTok Shop US charges a standard 6% referral fee on most product categories." },
+      { "q": "How do I include TikTok affiliate commissions?", "a": "Enter your creator affiliate percentage in the Ad / Promo (%) box to see exact net profit." }
+    ]
+  },
+  {
+    "id": "walmart",
+    "slug": "walmart-marketplace-fee-calculator-2026",
+    "platformName": "Walmart Marketplace",
+    "title": "Walmart Marketplace Fee Calculator 2026 - Referral Fees",
+    "h1": "Walmart Marketplace Seller Fee & Profit Calculator",
+    "description": "Calculate Walmart's 15% standard referral fee, WFS fulfillment costs, and net ROI per product.",
+    "feePercent": 15.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 15.0,
+    "feeNote": "15% standard referral fee (8% on electronics/computers; zero monthly subscription fee).",
+    "faqs": [
+      { "q": "Does Walmart Marketplace charge a monthly fee?", "a": "No, Walmart Marketplace has no monthly setup or subscription fee—you only pay referral fees per sale." },
+      { "q": "What is the average Walmart referral fee?", "a": "Most categories carry a 15% referral fee, while consumer electronics are charged 8%." }
+    ]
+  },
+  {
+    "id": "paypal-gs",
+    "slug": "paypal-goods-and-services-fee-calculator-2026",
+    "platformName": "PayPal Goods & Services",
+    "title": "PayPal Goods and Services Fee Calculator 2026 (2.99% + $0.49)",
+    "h1": "PayPal Goods & Services Fee Calculator (2026)",
+    "description": "Calculate exact PayPal invoice and Goods & Services fees (2.99% + $0.49) and reverse-calculate what to charge.",
+    "feePercent": 2.99,
+    "fixedFee": 0.49,
+    "altThreshold": 0,
+    "altFeePercent": 2.99,
+    "feeNote": "US domestic commercial & Goods/Services rate: 2.99% + $0.49 per transaction.",
+    "faqs": [
+      { "q": "What is the PayPal Goods and Services fee in 2026?", "a": "PayPal charges 2.99% plus a $0.49 fixed fee for US domestic Goods and Services transactions." },
+      { "q": "How much should I send on PayPal to cover fees?", "a": "Switch to Target Price (Reverse) mode and enter the exact amount you want the recipient to receive." }
+    ]
+  },
+  {
+    "id": "paypal-intl",
+    "slug": "paypal-international-fee-calculator-2026",
+    "platformName": "PayPal International",
+    "title": "PayPal International Fee Calculator 2026 (4.49% + $0.49)",
+    "h1": "PayPal International Cross-Border Fee Calculator",
+    "description": "Calculate PayPal cross-border business fees (2.99% + 1.50% international fee + $0.49) and net payout.",
+    "feePercent": 4.49,
+    "fixedFee": 0.49,
+    "altThreshold": 0,
+    "altFeePercent": 4.49,
+    "feeNote": "4.49% combined rate (2.99% commercial + 1.50% international fee) + $0.49 fixed fee.",
+    "faqs": [
+      { "q": "How much extra does PayPal charge for international payments?", "a": "PayPal adds a 1.50% cross-border fee on top of the standard 2.99% + $0.49 commercial rate." },
+      { "q": "Does PayPal charge currency conversion fees?", "a": "Yes, converting currencies within PayPal typically adds a 3% to 4% spread above the base exchange rate." }
+    ]
+  },
+  {
+    "id": "square-online",
+    "slug": "square-online-fee-calculator-2026",
+    "platformName": "Square Online Store",
+    "title": "Square Online Fee Calculator 2026 (2.9% + $0.30)",
+    "h1": "Square Online & Invoice Fee Calculator",
+    "description": "Calculate Square Online checkout and digital invoice processing fees (2.9% + $0.30) and net profit.",
+    "feePercent": 2.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 2.9,
+    "feeNote": "2.9% + $0.30 per online order or card-not-present payment on Square Free.",
+    "faqs": [
+      { "q": "What is Square's online transaction fee?", "a": "Square charges 2.9% + $0.30 per online order on the free plan (2.6% + $0.30 on Square Plus)." },
+      { "q": "Does Square charge a monthly fee for online stores?", "a": "Square offers a free tier with no monthly fee where you only pay per transaction." }
+    ]
+  },
+  {
+    "id": "square-pos",
+    "slug": "square-in-person-pos-fee-calculator",
+    "platformName": "Square In-Person POS",
+    "title": "Square In-Person POS Fee Calculator 2026 (2.6% + $0.10)",
+    "h1": "Square In-Person Tap & Chip Fee Calculator",
+    "description": "Calculate Square retail and restaurant POS card swipe/tap fees (2.6% + $0.10) and net earnings.",
+    "feePercent": 2.6,
+    "fixedFee": 0.10,
+    "altThreshold": 0,
+    "altFeePercent": 2.6,
+    "feeNote": "2.6% + $0.10 per contactless tap, Apple Pay, or chip card transaction.",
+    "faqs": [
+      { "q": "What is Square's in-person credit card fee?", "a": "Square charges 2.6% + $0.10 for all in-person tap, dip, and swipe transactions." },
+      { "q": "How fast does Square deposit funds?", "a": "Standard transfers arrive in 1–2 business days for free, or instantly for a 1.75% fee." }
+    ]
+  },
+  {
+    "id": "woocommerce",
+    "slug": "woocommerce-stripe-fee-calculator",
+    "platformName": "WooCommerce + Stripe",
+    "title": "WooCommerce & WooPayments Fee Calculator 2026",
+    "h1": "WooCommerce Payment Processing Fee Calculator",
+    "description": "Calculate WooPayments and Stripe fees (2.9% + $0.30) for self-hosted WordPress e-commerce stores.",
+    "feePercent": 2.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 2.9,
+    "feeNote": "0% platform transaction fee + 2.9% + $0.30 US credit card processing.",
+    "faqs": [
+      { "q": "Does WooCommerce charge a transaction fee?", "a": "No, WooCommerce is open-source and charges 0% platform fees; you only pay gateway fees (2.9% + $0.30)." },
+      { "q": "Is WooCommerce cheaper than Shopify?", "a": "Yes, because there are no monthly platform fees or extra third-party gateway surcharges." }
+    ]
+  },
+  {
+    "id": "amazon-merch",
+    "slug": "amazon-merch-on-demand-royalty-calculator",
+    "platformName": "Amazon Merch on Demand",
+    "title": "Amazon Merch on Demand Royalty Calculator 2026",
+    "h1": "Amazon Merch on Demand Royalty & Profit Calculator",
+    "description": "Estimate your Amazon Merch t-shirt and hoodie royalties after Amazon's production and fulfillment share (~70%).",
+    "feePercent": 70.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 70.0,
+    "feeNote": "Approximate ~70% base production/fulfillment deduction (~30% creator royalty at $19.99).",
+    "faqs": [
+      { "q": "How much royalty do you make on Amazon Merch?", "a": "At a $19.99 standard t-shirt list price in the US, creators earn roughly $4.89 to $5.38 per sale." },
+      { "q": "Do Amazon Merch creators pay upfront inventory costs?", "a": "No, Amazon prints, ships, and handles customer service with zero upfront cost." }
+    ]
+  },
+  {
+    "id": "redbubble",
+    "slug": "redbubble-artist-margin-calculator",
+    "platformName": "Redbubble Artist (20%)",
+    "title": "Redbubble Artist Margin & Earnings Calculator 2026",
+    "h1": "Redbubble Artist Royalty & Margin Calculator",
+    "description": "Calculate your Redbubble artist earnings at the default 20% markup rate across stickers, shirts, and prints.",
+    "feePercent": 80.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 80.0,
+    "feeNote": "Based on default 20% artist markup (80% base manufacturing price retained by Redbubble).",
+    "faqs": [
+      { "q": "What is Redbubble's default artist margin?", "a": "Redbubble sets a default 20% artist markup on top of the base product price, which you can customize." },
+      { "q": "Does Redbubble charge monthly account fees?", "a": "Standard tier accounts have no monthly fee, though high-volume accounts may incur tier platform fees." }
+    ]
+  },
+  {
+    "id": "printify-etsy",
+    "slug": "printify-etsy-profit-margin-calculator",
+    "platformName": "Printify + Etsy",
+    "title": "Printify + Etsy Profit Margin Calculator 2026",
+    "h1": "Printify + Etsy Net Profit & Pricing Calculator",
+    "description": "Calculate exact profit when selling Printify products on Etsy (enter Printify price in Item Cost).",
+    "feePercent": 9.5,
+    "fixedFee": 0.45,
+    "altThreshold": 0,
+    "altFeePercent": 9.5,
+    "feeNote": "Etsy 6.5% transaction + 3% processing + $0.45 fixed fees (enter Printify cost in Item Cost).",
+    "faqs": [
+      { "q": "How do I calculate Printify profit on Etsy?", "a": "Enter your Etsy retail price in Sale Price, Printify base cost in Item Cost, and Printify shipping in Your Ship Cost." },
+      { "q": "Does Printify Premium increase profit margins?", "a": "Yes, Printify Premium saves up to 20% on base product costs once you pass ~5–8 sales per month." }
+    ]
+  },
+  {
+    "id": "gumroad",
+    "slug": "gumroad-creator-fee-calculator-2026",
+    "platformName": "Gumroad Creator",
+    "title": "Gumroad Fee Calculator 2026 - 10% + Processing Breakdown",
+    "h1": "Gumroad Creator Fee & Net Payout Calculator",
+    "description": "Calculate Gumroad's 10% + $0.50 fee plus Stripe/PayPal processing (2.9% + $0.30) on digital products.",
+    "feePercent": 12.9,
+    "fixedFee": 0.80,
+    "altThreshold": 0,
+    "altFeePercent": 12.9,
+    "feeNote": "10% + $0.50 Gumroad fee + 2.9% + $0.30 credit card processing (12.9% + $0.80 total).",
+    "faqs": [
+      { "q": "What is Gumroad's total fee per sale in 2026?", "a": "Gumroad charges a flat 10% + $0.50 per direct sale, plus standard card/PayPal processing fees (~2.9% + $0.30)." },
+      { "q": "What is Gumroad Discover's fee?", "a": "Sales generated through Gumroad's internal Discover marketplace carry a 30% fee." }
+    ]
+  },
+  {
+    "id": "lemonsqueezy",
+    "slug": "lemonsqueezy-merchant-fee-calculator-2026",
+    "platformName": "Lemon Squeezy",
+    "title": "Lemon Squeezy Fee Calculator 2026 - SaaS & Digital",
+    "h1": "Lemon Squeezy Merchant of Record Fee Calculator",
+    "description": "Calculate Lemon Squeezy's 5% + $0.50 fee including global sales tax/VAT handling and net creator payout.",
+    "feePercent": 5.0,
+    "fixedFee": 0.50,
+    "altThreshold": 0,
+    "altFeePercent": 5.0,
+    "feeNote": "5% + $0.50 per transaction (includes global VAT/GST tax compliance and card fees).",
+    "faqs": [
+      { "q": "What are Lemon Squeezy's transaction fees?", "a": "Lemon Squeezy charges 5% + $0.50 per transaction and acts as Merchant of Record to handle global sales tax." },
+      { "q": "Are there extra fees for PayPal or international cards on Lemon Squeezy?", "a": "International cards and PayPal transactions add an extra 1.5% processing surcharge." }
+    ]
+  },
+  {
+    "id": "paddle",
+    "slug": "paddle-saas-fee-calculator-2026",
+    "platformName": "Paddle SaaS",
+    "title": "Paddle SaaS Fee Calculator 2026 (5% + $0.50)",
+    "h1": "Paddle SaaS & Software Billing Fee Calculator",
+    "description": "Calculate Paddle's 5% + $0.50 all-in Merchant of Record fee for SaaS subscriptions and software licenses.",
+    "feePercent": 5.0,
+    "fixedFee": 0.50,
+    "altThreshold": 0,
+    "altFeePercent": 5.0,
+    "feeNote": "5% + $0.50 all-in fee covering payment processing, chargebacks, and global tax remittance.",
+    "faqs": [
+      { "q": "How much does Paddle charge SaaS founders?", "a": "Paddle charges a transparent 5% + $0.50 per transaction with no monthly subscription fees." },
+      { "q": "Why use Paddle over Stripe for SaaS?", "a": "Paddle handles global VAT and US state sales tax compliance automatically as Merchant of Record." }
+    ]
+  },
+  {
+    "id": "patreon",
+    "slug": "patreon-creator-fee-calculator-2026",
+    "platformName": "Patreon Creator (Pro)",
+    "title": "Patreon Fee Calculator 2026 - Membership Net Earnings",
+    "h1": "Patreon Creator Fee & Take-Home Pay Calculator",
+    "description": "Calculate Patreon's 8% Pro platform fee plus 2.9% + $0.30 payment processing on monthly memberships.",
+    "feePercent": 10.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 10.9,
+    "feeNote": "8% Patreon Pro platform fee + 2.9% + $0.30 standard payment processing.",
+    "faqs": [
+      { "q": "What percentage does Patreon take from creators?", "a": "Patreon takes 8% on the Pro plan (12% on Premium) plus ~2.9% + $0.30 for payment processing." },
+      { "q": "What is Patreon's micropayment rate for pledges under $3?", "a": "Pledges of $3 or less are charged a higher 5% + $0.10 payment processing rate." }
+    ]
+  },
+  {
+    "id": "substack",
+    "slug": "substack-newsletter-fee-calculator-2026",
+    "platformName": "Substack Paid",
+    "title": "Substack Fee Calculator 2026 - Paid Newsletter Net Income",
+    "h1": "Substack Paid Subscription Fee Calculator",
+    "description": "Calculate Substack's 10% platform fee plus Stripe's 2.9% + $0.30 processing fee per paid subscriber.",
+    "feePercent": 12.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 12.9,
+    "feeNote": "10% Substack platform fee + 2.9% + $0.30 Stripe processing fee (12.9% + $0.30).",
+    "faqs": [
+      { "q": "How much does Substack take from paid subscriptions?", "a": "Substack keeps 10% of paid subscription revenue, and Stripe deducts an additional 2.9% + $0.30." },
+      { "q": "Is Substack free for free newsletters?", "a": "Yes, publishing free newsletters and podcasts on Substack is completely free." }
+    ]
+  },
+  {
+    "id": "kofi",
+    "slug": "kofi-creator-donation-fee-calculator",
+    "platformName": "Ko-fi Creator (Donations)",
+    "title": "Ko-fi Fee Calculator 2026 - Donations & Shop Payout",
+    "h1": "Ko-fi Creator Fee & Net Payout Calculator",
+    "description": "Calculate Ko-fi payouts with 0% platform fees on donations (only 2.9% + $0.30 Stripe/PayPal fees).",
+    "feePercent": 2.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 2.9,
+    "feeNote": "0% Ko-fi platform fee on donations; 2.9% + $0.30 payment processor fee only.",
+    "faqs": [
+      { "q": "Does Ko-fi take a cut of donations?", "a": "No, Ko-fi takes 0% of creator donations; you only pay standard Stripe or PayPal processing fees." },
+      { "q": "What is Ko-fi's fee for Shop and Commissions?", "a": "Free accounts pay a 5% service fee on Ko-fi Shop sales and commissions (0% with Ko-fi Gold)." }
+    ]
+  },
+  {
+    "id": "buy-me-a-coffee",
+    "slug": "buy-me-a-coffee-fee-calculator",
+    "platformName": "Buy Me a Coffee",
+    "title": "Buy Me a Coffee Fee Calculator 2026 - Creator Payout",
+    "h1": "Buy Me a Coffee Fee & Net Earnings Calculator",
+    "description": "Calculate Buy Me a Coffee's 5% transaction fee plus 2.9% + $0.30 card processing on supporter tips.",
+    "feePercent": 7.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 7.9,
+    "feeNote": "5% Buy Me a Coffee platform fee + 2.9% + $0.30 Stripe processing (7.9% + $0.30).",
+    "faqs": [
+      { "q": "How much does Buy Me a Coffee take?", "a": "Buy Me a Coffee charges a flat 5% transaction fee plus standard Stripe card processing fees." },
+      { "q": "How are Buy Me a Coffee payouts sent?", "a": "Payouts go directly to your connected Stripe or bank account." }
+    ]
+  },
+  {
+    "id": "stan-store",
+    "slug": "stan-store-creator-fee-calculator",
+    "platformName": "Stan Store Creator",
+    "title": "Stan Store Fee Calculator 2026 - Digital Product Payout",
+    "h1": "Stan Store Creator Fee & Profit Calculator",
+    "description": "Calculate your net revenue on Stan Store with 0% platform transaction fees (only 2.9% + $0.30 Stripe).",
+    "feePercent": 2.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 2.9,
+    "feeNote": "0% Stan Store transaction fee; standard 2.9% + $0.30 Stripe processing fee applies.",
+    "faqs": [
+      { "q": "Does Stan Store take a percentage of sales?", "a": "No, Stan Store charges 0% transaction fees on top of its monthly plan; you only pay Stripe's 2.9% + $0.30." },
+      { "q": "Is Stan Store better than Gumroad for high volume?", "a": "Yes, once you sell over ~$300/month, Stan Store's 0% fee saves more than Gumroad's 10% cut." }
+    ]
+  },
+  {
+    "id": "teachable",
+    "slug": "teachable-course-fee-calculator-2026",
+    "platformName": "Teachable (Basic Plan)",
+    "title": "Teachable Course Fee Calculator 2026 - Basic vs Pro",
+    "h1": "Teachable Online Course Fee & Profit Calculator",
+    "description": "Calculate Teachable Basic's 5% transaction fee plus 2.9% + $0.30 payment processing per student.",
+    "feePercent": 7.9,
+    "fixedFee": 0.30,
+    "altThreshold": 0,
+    "altFeePercent": 7.9,
+    "feeNote": "5% transaction fee on Teachable Basic (0% on Pro) + 2.9% + $0.30 card processing.",
+    "faqs": [
+      { "q": "What is Teachable's transaction fee?", "a": "Teachable Basic charges a 5% transaction fee per course sale, while Pro and Business plans charge 0%." },
+      { "q": "Are there extra fees for PayPal on Teachable?", "a": "Yes, international cards and PayPal payments typically incur an extra 1% to 1.5% processing fee." }
+    ]
+  },
+  {
+    "id": "udemy",
+    "slug": "udemy-instructor-revenue-calculator",
+    "platformName": "Udemy Instructor (Organic)",
+    "title": "Udemy Instructor Revenue & Royalty Calculator 2026",
+    "h1": "Udemy Instructor Net Earnings Calculator",
+    "description": "Calculate your Udemy instructor payout for organic marketplace sales (37% share / 63% Udemy fee).",
+    "feePercent": 63.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 63.0,
+    "feeNote": "Organic Udemy search/ad sales: 37% instructor share (63% retained by Udemy).",
+    "faqs": [
+      { "q": "How much do Udemy instructors earn per sale?", "a": "Instructors earn 37% when a student finds the course organically on Udemy, and 97% via instructor coupon links." },
+      { "q": "Are Apple App Store fees deducted before Udemy's split?", "a": "Yes, for mobile iOS/Android purchases, Apple or Google's 30% cut is deducted before the 37% split." }
+    ]
+  },
+  {
+    "id": "freelancer-com",
+    "slug": "freelancer-com-fee-calculator-2026",
+    "platformName": "Freelancer.com",
+    "title": "Freelancer.com Fee Calculator 2026 - Project Payout",
+    "h1": "Freelancer.com Project Fee & Net Income Calculator",
+    "description": "Calculate Freelancer.com's 10% project fee (or $5.00 minimum) and your exact take-home pay.",
+    "feePercent": 10.0,
+    "fixedFee": 0.00,
+    "altThreshold": 50,
+    "altFeePercent": 0,
+    "altFixedFee": 5.00,
+    "feeNote": "10% commission on fixed/hourly projects, or $5.00 USD minimum fee on projects under $50.",
+    "faqs": [
+      { "q": "What is Freelancer.com's fee for freelancers?", "a": "Freelancer.com charges 10% or $5.00 USD (whichever is greater) for fixed-price projects, and 10% on hourly work." },
+      { "q": "When is the Freelancer.com fee charged?", "a": "For fixed-price projects, the full project fee is deducted as soon as you accept the awarded project." }
+    ]
+  },
+  {
+    "id": "contra",
+    "slug": "contra-freelance-fee-calculator",
+    "platformName": "Contra Freelance (0%)",
+    "title": "Contra Freelance Fee Calculator 2026 - Commission-Free",
+    "h1": "Contra Commission-Free Freelance Income Calculator",
+    "description": "Calculate your freelance take-home pay on Contra with 0% platform commission fees.",
+    "feePercent": 0.0,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 0.0,
+    "feeNote": "0% commission fee for freelancers—you keep 100% of your invoiced project rate.",
+    "faqs": [
+      { "q": "Does Contra take a percentage from freelancers?", "a": "No, Contra charges 0% commission to freelancers, allowing you to keep 100% of what you earn." },
+      { "q": "How does Contra make money?", "a": "Contra charges clients a small contract fee and offers optional Contra Pro subscriptions." }
+    ]
+  },
+  {
+    "id": "coinbase-advanced",
+    "slug": "coinbase-advanced-trade-fee-calculator",
+    "platformName": "Coinbase Advanced (Taker)",
+    "title": "Coinbase Advanced Trade Fee Calculator 2026",
+    "h1": "Coinbase Advanced Crypto Trading Fee Calculator",
+    "description": "Calculate Coinbase Advanced spot taker fees (0.60% entry tier) and net profit per crypto trade.",
+    "feePercent": 0.60,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 0.60,
+    "feeNote": "0.60% taker fee (0.40% maker fee) for monthly trading volume under $10,000.",
+    "faqs": [
+      { "q": "What is the Coinbase Advanced trading fee?", "a": "Starting tier users pay 0.60% for market/taker orders and 0.40% for limit/maker orders." },
+      { "q": "How do I lower Coinbase trading fees?", "a": "Use limit orders (maker) instead of market orders, or increase 30-day trading volume above $10,000." }
+    ]
+  },
+  {
+    "id": "binance-spot",
+    "slug": "binance-spot-trading-fee-calculator",
+    "platformName": "Binance Spot (0.10%)",
+    "title": "Binance Spot Trading Fee Calculator 2026 (0.10%)",
+    "h1": "Binance Spot Trading Fee & Profit Calculator",
+    "description": "Calculate Binance standard 0.10% maker/taker spot trading fees and net profit per trade.",
+    "feePercent": 0.10,
+    "fixedFee": 0.00,
+    "altThreshold": 0,
+    "altFeePercent": 0.10,
+    "feeNote": "Standard 0.10% spot maker/taker fee (0.075% when paying fees with BNB).",
+    "faqs": [
+      { "q": "What is Binance's standard spot trading fee?", "a": "Binance charges a flat 0.10% fee for both maker and taker spot trades at VIP 0." },
+      { "q": "How do you get a 25% fee discount on Binance?", "a": "Enable the option to pay trading fees using BNB in your dashboard to reduce the rate to 0.075%." }
+    ]
   }
 ]
