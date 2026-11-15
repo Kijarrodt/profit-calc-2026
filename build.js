@@ -59,7 +59,8 @@ platforms.forEach((p) => {
   fs.writeFileSync(path.join(outDir, fileName), renderPage(p, false));
   sitemapUrls.push(`  <url><loc>${SITE_URL}/${fileName}</loc><priority>0.8</priority></url>`);
 });
-
+fs.copyFileSync("privacy.html", path.join(outDir, "privacy.html"));
+sitemapUrls.push(`  <url><loc>${SITE_URL}/privacy.html</loc><priority>0.3</priority></url>`);
 // 3. Build sitemap.xml & robots.txt
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
