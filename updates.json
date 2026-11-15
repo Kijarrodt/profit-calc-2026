@@ -1,0 +1,126 @@
+{
+ "ebay-sneakers": {
+  "feePercent": 8.0,
+  "fixedFee": 0,
+  "altThreshold": 150,
+  "altFeePercent": 13.6,
+  "altFixedFee": 0.4,
+  "thresholdOnTotal": true,
+  "description": "Calculate eBay sneaker selling fees (8% at $150+ with no per-order fee, 13.6% + $0.40 under $150), shipping costs, and net payout.",
+  "feeNote": "8% final value fee when the total sale is $150 or more (no per-order fee); 13.6% + $0.40 per order below $150 ($0.30 if the order is $10 or less).",
+  "faqs": [
+   {
+    "q": "What is the eBay sneaker fee in 2026?",
+    "a": "For qualifying men's and women's athletic shoes, eBay charges 8% of the total sale when it is $150 or more, with no per-order fee. Below $150 the standard 13.6% applies, plus a per-order fee of $0.30 (orders of $10 or less) or $0.40 (orders over $10)."
+   },
+   {
+    "q": "Does eBay charge fees on shipping?",
+    "a": "Yes. The final value fee is calculated on the total amount of the sale, which includes the item price, the shipping you charge the buyer, and sales tax collected."
+   },
+   {
+    "q": "Do eBay Store subscribers pay less on sneakers?",
+    "a": "Yes. For qualifying athletic shoes sold at $150 or more, Basic Store and higher subscriptions are reported at 7% instead of 8%. Check eBay's current fee page for exact terms."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How eBay sneaker fees work in 2026</h2><p>eBay's sneaker fees depend on one number: the total amount of the sale. That total includes the item price, the shipping you charge the buyer, and any sales tax eBay collects. For qualifying men's and women's athletic shoes, a total of $150 or more is charged 8% with no per-order fee. Below $150, the standard 13.6% rate applies plus a per-order fee of $0.30 (orders of $10 or less) or $0.40 (orders over $10).</p><h3 class=\"font-semibold text-slate-200 pt-2\">Two worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>Sold for $200 with no shipping charged: the fee is 8% of $200 = $16.00, with no per-order fee. eBay pays out $184.00. If the pair cost you $130, that leaves $54.00 before your own shipping and other costs.</li><li>Sold for $120 plus $12 shipping charged: the total is $132, so the fee is 13.6% of $132 = $17.95, plus $0.40 per order = $18.35. eBay pays out $113.65. With a $70 cost and a $12 shipping label, you keep $31.65.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Watch the $150 line</h3><p>A pair that sells for a $149 total pays about $20.66 in fees (13.6% + $0.40). The same pair at a $150 total pays $12.00. Because the lower rate starts at $150, selling at $150 instead of $149 leaves you about $9.66 better off after fees.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Tips to keep more of each sale</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>Check the total, not just the item price. Shipping and sales tax count toward the $150 line.</li><li>Basic Store and higher subscriptions are reported at 7% on qualifying sneakers at $150 or more, so high-volume sellers may save by subscribing.</li><li>Enter your shipping label cost and any promoted-listing rate in the calculator to see a true profit figure.</li></ul><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. eBay updates its fees from time to time, so confirm current rates on eBay's official selling fees page before making pricing decisions.</p></section>"
+ },
+ "etsy-digital": {
+  "feeNote": "6.5% transaction fee + 3% payment processing + $0.25 fixed processing fee + $0.20 listing fee (US sellers).",
+  "faqs": [
+   {
+    "q": "How much does Etsy take from digital downloads?",
+    "a": "Etsy deducts a $0.20 listing fee, a 6.5% transaction fee, and a 3% + $0.25 payment processing fee on US orders."
+   },
+   {
+    "q": "Are digital products exempt from shipping fees on Etsy?",
+    "a": "Yes, digital downloads have zero shipping costs, maximizing net profit margins."
+   },
+   {
+    "q": "Does Etsy charge more if a sale comes from Offsite Ads?",
+    "a": "Yes. When a sale comes through an Offsite Ad, Etsy charges an extra 15% of the order total (12% for shops that earned $10,000 or more in the past 12 months). Enter the ad fee percentage in the calculator to include it."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Etsy fees work for digital downloads</h2><p>Digital products have no shipping cost, but Etsy fees still add up. For US shops, each sale carries a 6.5% transaction fee on the order total, a 3% + $0.25 payment processing fee, and a $0.20 listing fee that is charged when a listing is published and again each time it renews or sells.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked example: a $10 download</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>Transaction fee: 6.5% of $10 = $0.65</li><li>Payment processing: 3% of $10 + $0.25 = $0.55</li><li>Listing fee: $0.20</li><li>Total fees: $1.40, so you keep $8.60 before taxes and your own costs.</li></ul><p>If the sale comes through an Offsite Ad, Etsy adds a 15% fee (12% for shops with $10,000 or more in sales over the past 12 months). On the same $10 sale at 15%, that is another $1.50, bringing total fees to $2.90 and your payout to $7.10. Enter the ad fee percentage in the calculator to see the effect on your margin.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Why low prices hurt</h3><p>The $0.25 payment fee and the $0.20 listing fee are fixed, so they take a bigger bite from cheaper products. On a $3 download they total $0.45 before any percentage fees, which is 15% of the sale. Bundling several designs into one higher-priced listing usually protects your margin better than selling them one by one.</p><p class=\"text-xs text-slate-500\">Rates shown are US figures last reviewed in November 2026. Confirm current fees in Etsy's Seller Handbook before pricing.</p></section>"
+ },
+ "poshmark": {
+  "feeOnItemOnly": true,
+  "faqs": [
+   {
+    "q": "How much commission does Poshmark take?",
+    "a": "Poshmark takes a flat $2.95 on sales under $15, and 20% on sales of $15 or more."
+   },
+   {
+    "q": "Who pays for shipping on Poshmark?",
+    "a": "The buyer pays standard shipping unless the seller offers a shipping discount."
+   },
+   {
+    "q": "Does Poshmark charge a fee on shipping?",
+    "a": "No. The commission is calculated on the item price. Shipping is paid separately by the buyer and is not part of the seller's commission."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Poshmark seller fees work in 2026</h2><p>Poshmark uses one selling fee with two tiers. Sales under $15 pay a flat $2.95. Sales of $15 or more pay a 20% commission. The fee already covers payment processing, and there are no listing fees. The commission is based on the item price, not on shipping, which the buyer pays separately.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$75 jacket: 20% = $15.00, so you receive $60.00 before your item cost.</li><li>$12 necklace: flat $2.95, so you receive $9.05. That is about 24.6% of the sale.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">The $15 line</h3><p>A $14.99 item pays $2.95 and leaves you $12.04. A $15.00 item pays $3.00 and leaves you $12.00. Right at the line, the higher price leaves you slightly less, and it only pulls ahead once the price is above about $15.05.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Bundle small items</h3><p>Three $8 items sold separately pay $2.95 each, or $8.85 in fees on $24 of sales. Bundled into a single $24 sale, the fee is 20% = $4.80. You keep $19.20 instead of $15.15, which is $4.05 more.</p><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Poshmark can change its fees, so confirm current rates in Poshmark's help center before pricing.</p></section>"
+ },
+ "ebay-electronics": {
+  "feePercent": 13.6,
+  "fixedFee": 0.4,
+  "altFeePercent": 13.6,
+  "description": "Calculate eBay final value fees for phones, laptops, and electronics (13.6% + $0.30 to $0.40 per order) and net profit.",
+  "feeNote": "Standard 13.6% final value fee for consumer electronics (2.35% on the portion above $7,500) + $0.40 per order over $10 ($0.30 if $10 or less).",
+  "faqs": [
+   {
+    "q": "What is the eBay selling fee for electronics?",
+    "a": "eBay charges 13.6% on the total sale amount for most consumer electronics, plus a per-order fee of $0.30 (orders of $10 or less) or $0.40 (orders over $10)."
+   },
+   {
+    "q": "Is there a lower fee tier for high-value electronics on eBay?",
+    "a": "Yes, the portion of a sale above $7,500 is charged at a reduced 2.35% rate."
+   }
+  ]
+ },
+ "ebay-clothing": {
+  "feePercent": 13.6,
+  "fixedFee": 0.4,
+  "altFeePercent": 13.6,
+  "description": "Calculate eBay 13.6% + $0.30 to $0.40 selling fees, shipping deductions, and profit margin for apparel resellers.",
+  "feeNote": "13.6% final value fee on the total sale + $0.40 per order over $10 ($0.30 if $10 or less).",
+  "faqs": [
+   {
+    "q": "What is the eBay fee for selling clothes?",
+    "a": "Most clothing and apparel items are charged 13.6% of the total sale amount plus a per-order fee of $0.30 (orders of $10 or less) or $0.40 (orders over $10)."
+   },
+   {
+    "q": "Do eBay Store subscribers get lower clothing fees?",
+    "a": "Yes, Basic Store subscribers and above receive discounted final value fees in many categories."
+   }
+  ]
+ },
+ "ebay-auto-parts": {
+  "feePercent": 13.6,
+  "fixedFee": 0.4,
+  "altFeePercent": 13.6,
+  "description": "Calculate eBay Motors parts and accessories selling fees (13.6% + $0.30 to $0.40), heavy shipping costs, and net profit per auto part.",
+  "feeNote": "13.6% final value fee on parts and accessories up to $7,500 + $0.40 per order over $10 ($0.30 if $10 or less).",
+  "faqs": [
+   {
+    "q": "How much does eBay charge for auto parts?",
+    "a": "eBay charges 13.6% on most parts and accessories up to $7,500, plus a per-order fee of $0.30 (orders of $10 or less) or $0.40 (orders over $10)."
+   },
+   {
+    "q": "Does eBay charge fees on collected sales tax?",
+    "a": "Yes, the 13.6% percentage applies to the item price, shipping, and buyer sales tax combined."
+   }
+  ]
+ },
+ "etsy-pod": {
+  "feeNote": "6.5% transaction fee + 3% payment processing + $0.25 fixed processing fee + $0.20 listing fee (US sellers)."
+ },
+ "etsy-handmade": {
+  "feeNote": "6.5% transaction fee + 3% payment processing + $0.25 fixed processing fee + $0.20 listing fee (US sellers)."
+ },
+ "etsy-vintage": {
+  "feeNote": "6.5% transaction fee + 3% payment processing + $0.25 fixed processing fee + $0.20 listing fee (US sellers)."
+ },
+ "etsy-offsite-ads": {
+  "feeNote": "15% Offsite Ads fee (12% for shops with $10,000+ in sales over the past 12 months) + 6.5% transaction fee + 3% processing + $0.45 fixed fees (US sellers)."
+ }
+}
