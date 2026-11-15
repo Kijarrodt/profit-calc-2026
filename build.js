@@ -12,6 +12,12 @@ if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir, { recursive: true });
 }
 
+// Koreksi fee + teks unik per halaman (updates.json)
+const updates = fs.existsSync("updates.json")
+  ? JSON.parse(fs.readFileSync("updates.json", "utf8"))
+  : {};
+platforms.forEach((p) => Object.assign(p, updates[p.id] || {}));
+
 // Generate internal links HTML untuk semua halaman
 const internalLinksHtml = platforms
   .map(
@@ -20,7 +26,7 @@ const internalLinksHtml = platforms
   )
   .join("\n        ");
 
-const platformsJsonSafe = JSON.stringify(platforms);
+const platformsJsonSafe = JSON.stringify(platforms, (k, v) => (k === "extraHtml" ? undefined : v));
 
 function renderPage(item, isHome = false) {
   const canonical = isHome ? `${SITE_URL}/` : `${SITE_URL}/${item.slug}.html`;
@@ -45,7 +51,8 @@ function renderPage(item, isHome = false) {
     .replace(/{{FAQ_SCHEMA}}/g, faqSchema)
     .replace(/{{INTERNAL_LINKS}}/g, internalLinksHtml)
     .replace(/{{PLATFORMS_JSON}}/g, platformsJsonSafe)
-    .replace(/{{PLATFORM_ID}}/g, item.id);
+    .replace(/{{PLATFORM_ID}}/g, item.id)
+    .replace(/{{EXTRA_CONTENT}}/g, () => (isHome ? "" : item.extraHtml || ""));
 }
 
 // 1. Build halaman utama (index.html)
@@ -59,6 +66,7 @@ platforms.forEach((p) => {
   fs.writeFileSync(path.join(outDir, fileName), renderPage(p, false));
   sitemapUrls.push(`  <url><loc>${SITE_URL}/${fileName}</loc><priority>0.8</priority></url>`);
 });
+
 fs.copyFileSync("privacy.html", path.join(outDir, "privacy.html"));
 sitemapUrls.push(`  <url><loc>${SITE_URL}/privacy.html</loc><priority>0.3</priority></url>`);
 // 3. Build sitemap.xml & robots.txt
