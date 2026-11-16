@@ -122,5 +122,124 @@
  },
  "etsy-offsite-ads": {
   "feeNote": "15% Offsite Ads fee (12% for shops with $10,000+ in sales over the past 12 months) + 6.5% transaction fee + 3% processing + $0.45 fixed fees (US sellers)."
+ },
+ "mercari": {
+  "faqs": [
+   {
+    "q": "How much is the Mercari selling fee?",
+    "a": "Mercari charges a flat 10% selling fee on the total completed sale price."
+   },
+   {
+    "q": "Does Mercari charge a listing fee?",
+    "a": "No, listing items on Mercari is completely free."
+   },
+   {
+    "q": "Does Mercari's 10% fee apply to shipping?",
+    "a": "Yes. The 10% selling fee is calculated on the item price plus any shipping the buyer pays."
+   },
+   {
+    "q": "Does Mercari charge a payment processing fee?",
+    "a": "Not on listings created or updated since January 6, 2025. The old separate processing fee was removed, so the 10% selling fee is the only seller fee on most sales. Buyers pay their own Buyer Protection fee, which does not reduce your payout."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Mercari seller fees work in 2026</h2><p>Mercari charges sellers one fee: 10% of the item price plus any shipping the buyer pays. Listing is free, and since January 6, 2025 there is no separate payment processing fee on listings created or updated after that date. Buyers pay their own Buyer Protection fee at checkout, which does not come out of your payout.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$50 item with $8 shipping paid by the buyer: the fee is 10% of $58 = $5.80, so you receive $52.20 before paying for the shipping label.</li><li>$20 item with no shipping charged: the fee is $2.00 and you receive $18.00.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Pricing to hit a target</h3><p>If you want to keep $40 and the buyer pays no shipping, divide by 0.90 and list at about $44.45.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Things to know</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>The fee includes buyer-paid shipping, so charging shipping separately does not avoid it.</li><li>Standard bank payouts are free. Instant Pay carries its own fee, reported at $3 per cash-out.</li></ul><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Fees change from time to time, so confirm current rates on the platform's official fee page before pricing.</p></section>"
+ },
+ "upwork": {
+  "description": "Calculate your net Upwork earnings after the freelancer service fee (typically around 10%, variable 0-15% per contract) and work out the rate to quote.",
+  "feeNote": "Typical rate shown: 10%. Since May 1, 2025, new contracts carry a variable freelancer fee of 0-15%, shown before you accept; contracts started earlier stay at a flat 10%.",
+  "faqs": [
+   {
+    "q": "What is Upwork's freelancer service fee?",
+    "a": "Since May 1, 2025, new contracts carry a variable freelancer fee between 0% and 15%. The rate is shown when you submit a proposal or receive an offer and stays fixed for that contract. Many freelancers report about 10% on typical contracts, and contracts started before May 2025 keep a flat 10%."
+   },
+   {
+    "q": "How do I calculate what to charge to get a specific net amount?",
+    "a": "Divide your desired take-home pay by 1 minus your fee rate. At a 10% fee, divide by 0.90. At 15%, divide by 0.85."
+   },
+   {
+    "q": "How do I test a different Upwork fee in this calculator?",
+    "a": "The calculator starts from a 10% fee. To test 15%, enter 5 in the Ad / Promo box, which adds 5 percentage points."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Upwork's freelancer fee works in 2026</h2><p>Since May 1, 2025, Upwork has charged freelancers a variable service fee of 0% to 15% on new contracts, instead of the flat 10% it used before. The rate is shown when you submit a proposal or receive an offer and stays fixed for that contract. Contracts that started before May 2025 remain on the flat 10%. This calculator starts from 10% as a typical rate, so adjust it to the rate on your own contract.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>A $1,000 project at a 10% fee leaves you $900. At 15% it leaves $850.</li><li>To take home $50 an hour, quote about $55.56 at a 10% fee, or about $58.82 at 15%.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Costs outside the service fee</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>Connects used to send proposals are a separate cost, reported at $0.15 each.</li><li>Withdrawal and currency conversion fees can apply when you move money out of Upwork.</li><li>Clients pay their own fees separately, so they do not reduce your payout.</li></ul><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Upwork shows the exact rate for each contract, so always check it before you accept.</p></section>"
+ },
+ "fiverr": {
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Fiverr's 20% commission works</h2><p>Fiverr keeps a flat 20% of every order. That includes the base gig price, gig extras, custom offers, and tips, and it does not drop as you earn more or level up. Buyers pay a separate service fee on top of your price, which does not reduce your payout.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$100 gig: Fiverr keeps $20 and you receive $80.</li><li>$150 gig plus a $30 rush delivery extra plus a $20 tip = $200: Fiverr keeps $40 and you receive $160.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Pricing to hit a target</h3><p>To keep $100, price the gig at $125 (divide by 0.80). To keep $400, price it at $500.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Tips are not exempt</h3><p>Because the 20% also applies to tips, a $20 tip arrives as $16. Do not count on tips to make up for an underpriced gig.</p><p class=\"text-xs text-slate-500\">Withdrawal fees vary by method and are not included. Fee rates last reviewed in November 2026. Fees change from time to time, so confirm current rates on the platform's official fee page before pricing.</p></section>"
+ },
+ "shopify-stripe": {
+  "faqs": [
+   {
+    "q": "What is the Stripe and Shopify Basic transaction fee?",
+    "a": "Both Shopify Basic (using Shopify Payments) and Stripe charge 2.9% + $0.30 per online card transaction."
+   },
+   {
+    "q": "Are transaction fees refunded when issuing a customer refund?",
+    "a": "No, Stripe and Shopify Payments do not return the original processing fees on refunded orders."
+   },
+   {
+    "q": "Does Shopify charge extra if I use Stripe instead of Shopify Payments?",
+    "a": "Yes. On Shopify plans, using an outside payment provider adds a third-party gateway fee on top of the provider's own rate. On the Basic plan it is 2%. Using Shopify Payments avoids it."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Shopify and Stripe card fees work</h2><p>On Shopify's Basic plan with Shopify Payments, and on Stripe directly, US online card sales cost 2.9% plus $0.30. This calculator covers that card fee only. Your monthly Shopify plan, apps, shipping, and product costs are separate.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$60 order: 2.9% = $1.74, plus $0.30 = $2.04 in fees, so you keep $57.96.</li><li>$10 order: $0.29 plus $0.30 = $0.59, which is 5.9% of the sale. The fixed $0.30 hurts small orders the most.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Fees this calculator does not include</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>If you run Stripe or another outside gateway on a Shopify plan instead of Shopify Payments, Shopify adds a 2% third-party gateway fee on Basic. A $60 order would then cost about 4.9% + $0.30 = $3.24.</li><li>Shopify lists higher rates for premium cards (3.5% + 30 cents) and an extra 1% for international cards.</li><li>Higher Shopify plans lower the card rate: 2.7% on Grow and 2.5% on Advanced in the US.</li></ul><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Fees change from time to time, so confirm current rates on the platform's official fee page before pricing.</p></section>"
+ },
+ "depop": {
+  "platformName": "Depop Seller (US rates)",
+  "description": "Calculate Depop payment processing fees for US sellers (3.3% + $0.45), optional Boosted Listing fees, and net profit per item.",
+  "feeNote": "No selling fee for US sellers; 3.3% + $0.45 payment processing on item + shipping + tax. UK sellers pay 2.9% + £0.30, so treat UK results as estimates.",
+  "faqs": [
+   {
+    "q": "Does Depop still charge a 10% selling fee?",
+    "a": "Not for sellers based in the US, UK, or Australia. US sellers pay payment processing of 3.3% + $0.45 per transaction, and UK sellers pay 2.9% + £0.30. The 10% selling fee still applies to sellers in other countries."
+   },
+   {
+    "q": "How much do Depop Boosted Listings cost?",
+    "a": "Depop lists a 12% fee for US and UK sellers, charged only when the item sells through boosting. Older guides show 8%, so check the rate in your Depop app before boosting."
+   },
+   {
+    "q": "What does Depop's processing fee apply to?",
+    "a": "It applies to the item price, the shipping charged to the buyer, and any sales tax."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Depop fees work in 2026</h2><p>Depop charges sellers in the US, UK, and Australia no selling fee. What you pay is payment processing: 3.3% + $0.45 per transaction for US sellers (2.9% + £0.30 in the UK), charged on the item price plus shipping and any sales tax. Sellers elsewhere still pay a 10% selling fee. Buyers pay their own marketplace fee on top, which does not come out of your payout.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$90 item with $10 shipping charged: the total is $100, so processing is 3.3% of $100 + $0.45 = $3.75. You receive $96.25 before your shipping label.</li><li>$10 item with no shipping: $0.33 + $0.45 = $0.78, which is 7.8% of the sale. The fixed $0.45 weighs most on cheap items.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Boosting changes the math</h3><p>Boosted Listings add a fee only when the item sells through boosting. Depop lists 12% for US and UK sellers. A $50 item sold through a boost with no shipping charged pays $6.00 for the boost plus $2.10 in processing, so you receive $41.90.</p><p>Selling two items in one order pays the $0.45 fixed fee only once.</p><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Fees change from time to time, so confirm current rates on the platform's official fee page before pricing.</p></section>"
+ },
+ "amazon-fba": {
+  "fixedFee": 3.33,
+  "altFeePercent": 15.0,
+  "description": "Estimate Amazon 15% referral fees, FBA fulfillment costs (about $3.33 including the 2026 fuel surcharge), COGS, and net ROI per unit.",
+  "feeNote": "15% referral fee + about $3.33 estimated small standard FBA fulfillment fee (includes the 3.5% fuel and logistics surcharge since April 17, 2026). Actual fees depend on size, weight, and price band.",
+  "faqs": [
+   {
+    "q": "What is the average Amazon FBA fee percentage?",
+    "a": "Most categories carry a 15% referral fee plus a per-unit FBA fulfillment fee that starts around $3.06 for the lightest small standard items in 2026. A 3.5% fuel and logistics surcharge has been added to fulfillment fees since April 17, 2026."
+   },
+   {
+    "q": "What is a good profit margin for Amazon FBA?",
+    "a": "Most FBA sellers target a minimum 25% to 30% net profit margin after product cost, shipping, and PPC ads."
+   },
+   {
+    "q": "Are FBA fees higher during the holiday season?",
+    "a": "Yes. Amazon's holiday peak fulfillment fees apply from October 15, 2026 through January 14, 2027 and average about $0.32 more per unit than non-peak rates."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How Amazon FBA fees work in 2026</h2><p>Two charges hit almost every FBA sale: a referral fee, usually 15% of the sale price, and a per-unit fulfillment fee based on the item's size, weight, and (since January 15, 2026) its price band. Since April 17, 2026, a 3.5% fuel and logistics surcharge is added to the fulfillment fee. Your selling plan (Professional is $39.99 a month), storage, and ads are separate. This calculator uses an estimated $3.33 fulfillment fee, so use Amazon's own revenue calculator when you have exact dimensions.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Worked examples</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>$25 item, small standard, 6 oz: referral fee $3.75 + fulfillment $3.45 + surcharge about $0.12 = about $7.32 in fees. That leaves about $17.68 before product cost.</li><li>$9.99 item: referral fee $1.50 + fulfillment $3.38 + surcharge $0.12 = $5.00, or about half the price.</li></ul><h3 class=\"font-semibold text-slate-200 pt-2\">Why cheap products struggle</h3><p>Fulfillment fees are fixed per unit, so a low price leaves little room. Check that fees, product cost, and ads still leave a healthy margin before you order inventory.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Peak season</h3><p>Holiday peak fulfillment fees apply from October 15, 2026 through January 14, 2027 and average about $0.32 more per unit. This estimate does not include them.</p><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Amazon updates fees often, so confirm current rates in Seller Central before pricing.</p></section>"
+ },
+ "tiktok-shop": {
+  "feeNote": "Published US referral fee: 6% on most categories (includes payment processing). Some seller resources report 8% since August 4, 2026, so check your Seller Center.",
+  "faqs": [
+   {
+    "q": "How much does TikTok Shop charge sellers in 2026?",
+    "a": "TikTok Shop's published US referral fee is 6% for most categories, with 5% for some such as select jewelry, and it includes payment processing. Some seller resources report an increase to 8% from August 4, 2026, so check the rate shown in your Seller Center before pricing."
+   },
+   {
+    "q": "How do I include TikTok affiliate commissions?",
+    "a": "Enter your creator affiliate percentage in the Ad / Promo (%) box to see exact net profit."
+   },
+   {
+    "q": "Is there a discount for new TikTok Shop sellers?",
+    "a": "TikTok has offered new US sellers a reduced 3% referral rate for 30 days after a first sale made within 60 days of onboarding. Check Seller Center for current terms."
+   }
+  ],
+  "extraHtml": "<section class=\"mt-10 space-y-3 text-sm text-slate-300 leading-relaxed\"><h2 class=\"text-lg font-bold text-white\">How TikTok Shop seller fees work in 2026</h2><p>TikTok Shop charges US sellers a referral fee on each order. The published rate is 6% for most categories, with 5% for some, and it already includes payment processing. There are no listing fees or monthly subscription. Some seller resources report that the standard rate rose to 8% on August 4, 2026, which public documentation had not caught up with, so confirm the rate in your Seller Center. This calculator uses 6%.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Illustrative example</h3><p>A $40 item at 6% pays $2.40 to TikTok. If you also pay a 15% creator commission ($6.00), your costs before product and shipping are $8.40 and you keep $31.60. At an 8% referral fee, TikTok's share would be $3.20 instead.</p><h3 class=\"font-semibold text-slate-200 pt-2\">Other costs to plan for</h3><ul class=\"list-disc pl-5 space-y-1.5\"><li>Shipping, fulfillment, and creator commissions are separate from the referral fee.</li><li>When a buyer returns an item, TikTok refunds the referral fee but keeps a refund administration fee of 20% of it, capped at $5 per SKU.</li><li>New US sellers have been offered a reduced 3% referral rate for 30 days after a first sale within 60 days of onboarding.</li></ul><p class=\"text-xs text-slate-500\">Fee rates last reviewed in November 2026. Fees change from time to time, so confirm current rates on the platform's official fee page before pricing.</p></section>"
  }
 }
